@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/aop
+						http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<!--
+		1,download activeMQ, from http://activemq.apache.org/
+		
+		2,start activeMQ, cmd to apache-activemq-5.14.5/bin, then run "activemq.bat start" in cmd dialog
+		
+		3,login activeMQ, go to http://localhost:8161/admin/  login with user name admin/admin(config in /apache-activemq-5.14.5/conf/users.properties)
+	 -->
+	 
+	 <!-- destination config -->
+	  <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+	 	<property name="brokerURL" value="${mq.brokerURL}"></property>
+	 </bean>
+	 
+	 <!-- MQ destination queue configuration -->
+	 <bean id="activeMQQueue" class="org.apache.activemq.command.ActiveMQQueue">
+	 	<constructor-arg value="${mqQueue}"></constructor-arg>
+	 </bean> 
+	 <bean id="activeMQTopic" class="org.apache.activemq.command.ActiveMQTopic">
+	 	<constructor-arg value="${mqTopic}"></constructor-arg>
+	 </bean>
+	 
+	 <!-- spring JmsTemplate configuration -->
+	 <!-- for queue model -->
+	 <bean id="jmsTemplateQueue" class="org.springframework.jms.core.JmsTemplate" scope="singleton">
+	 	<property name="connectionFactory" ref="connectionFactory" ></property>
+	 	<property name="defaultDestination" ref="activeMQQueue"></property>
+	 	
+	 	<!-- <property name="pubSubDomain" value="true"/>
+		<property name="receiveTimeout" value="10000" />
+		<property name="explicitQosEnabled" value="true"/>
+		<property name="deliveryMode" value="1"/> -->
+	 </bean>
+	 <!-- for topic model -->
+	  <bean id="jmsTemplateTopic" class="org.springframework.jms.core.JmsTemplate" scope="singleton">
+	 	<property name="connectionFactory" ref="connectionFactory" ></property>
+	 	<property name="defaultDestination" ref="activeMQTopic"></property>
+	 	
+	 	<property name="pubSubDomain" value="true"/>
+		<property name="receiveTimeout" value="10000" />
+		<property name="explicitQosEnabled" value="true"/>
+		<property name="deliveryMode" value="1"/>
+	 </bean>
+	 
+	 <!-- mq listener container configuration -->	 
+	 <!-- for queue model -->
+	 <bean id="defaultMessageListenerContainerQueue" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+	 	<property name="connectionFactory" ref="connectionFactory"></property>
+	 	<property name="destination" ref="activeMQQueue"></property>
+	 	<property name="messageListener" ref="JMSServiceReceiver"></property>
+	 </bean>
+
+
+	<!-- for topic model -->
+	<bean id="defaultMessageListenerContainerTopic" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+	 	<property name="connectionFactory" ref="connectionFactory"></property>
+	 	<property name="destination" ref="activeMQTopic"></property>
+	 	<property name="messageListener" ref="JMSServiceTopicReceiver"></property>
+	 	
+	 	<property name="pubSubDomain" value="true"/>
+		<property name="subscriptionDurable" value="true"/>
+		<property name="clientId" value="consumerClient1"/>
+		<property name="sessionAcknowledgeMode" value="1"/>
+	 </bean>
+	 
+	 <bean id="defaultMessageListenerContainerTopic2" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+	 	<property name="connectionFactory" ref="connectionFactory"></property>
+	 	<property name="destination" ref="activeMQTopic"></property>
+	 	<property name="messageListener" ref="JMSServiceTopicReceiver"></property>
+	 	
+	 	<property name="pubSubDomain" value="true"/>
+		<property name="subscriptionDurable" value="true"/>
+		<property name="clientId" value="consumerClient2"/>
+		<property name="sessionAcknowledgeMode" value="1"/>
+	 </bean>
+	 
+	 <!-- <bean id="defaultMessageListenerContainerTopic3" class="org.springframework.jms.listener.DefaultMessageListenerContainer">
+	 	<property name="connectionFactory" ref="connectionFactory"></property>
+	 	<property name="destination" ref="activeMQTopic"></property>
+	 	<property name="messageListener" ref="JMSServiceTopicReceiver"></property>
+	 	
+	 	<property name="pubSubDomain" value="true"/>
+		<property name="subscriptionDurable" value="true"/>
+		<property name="clientId" value="consumerClient3"/>
+		<property name="sessionAcknowledgeMode" value="1"/>
+	 </bean> -->
+	 
+</beans>

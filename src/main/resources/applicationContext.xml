@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- get db properties from dataSource.properties file -->
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations" value="classpath*:dataSource.properties"/>
+		<property name="ignoreResourceNotFound" value="true"/>
+	</bean>
+
+	<!-- scan package -->
+	<context:component-scan base-package="com.login.Util.impl"></context:component-scan>
+	<context:component-scan base-package="com.login.controller"></context:component-scan>
+	<context:component-scan base-package="com.login.service.impl"></context:component-scan>
+	<context:component-scan base-package="com.login.persistence.impl"></context:component-scan>
+
+	 <!-- DAO template configuration -->
+	 <import resource="springPersistenceConfiguration.xml"/>
+	<!-- spring AOP -->
+	<!-- 
+	<import resource="springAOPConfiguration.xml"/>
+	 -->
+	 
+	 <!-- spring quartz -->
+	 <!-- <import resource="springQuartzConfiguration.xml"/> -->
+	 
+	 <!-- spring cache -->
+	<!--  <import resource="springCacheConfiguration.xml"/> -->
+	
+	<!-- spring thread pool -->
+	<import resource="springThreadpoolConfiguration.xml"/>
+	 
+	 <!-- spring MQ -->
+	 <!-- <import resource="springMQConfiguration.xml"/>  -->
+	 
+
+</beans>

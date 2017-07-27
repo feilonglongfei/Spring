@@ -1,0 +1,1578 @@
+2017-07-09 16:51:30,973 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+ 2017-07-09 16:51:30,983 - Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+ 2017-07-09 16:51:30,994 - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5c7fa833, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@39aeed2f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@724af044, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4678c730, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6767c1fc]
+ 2017-07-09 16:51:31,174 - Loading XML bean definitions from URL [file:/D:/EclipseWorkSpace/SpringFramework/SpringFramework/target/classes/applicationContext.xml]
+ 2017-07-09 16:51:31,961 - Loading XML bean definitions from URL [file:/D:/EclipseWorkSpace/SpringFramework/SpringFramework/target/classes/springPersistenceConfiguration.xml]
+ 2017-07-09 16:51:32,057 - Loading XML bean definitions from URL [file:/D:/EclipseWorkSpace/SpringFramework/SpringFramework/target/classes/springThreadpoolConfiguration.xml]
+ 2017-07-09 16:51:32,081 - Refreshing org.springframework.context.support.GenericApplicationContext@6e06451e: startup date [Sun Jul 09 16:51:32 CST 2017]; root of context hierarchy
+ 2017-07-09 16:51:32,338 - Loading properties file from URL [file:/D:/EclipseWorkSpace/SpringFramework/SpringFramework/target/classes/dataSource.properties]
+ 2017-07-09 16:51:32,680 - Initializing ExecutorService  'taskExecutor'
+ 2017-07-09 16:51:32,823 - Loaded JDBC driver: com.mysql.cj.jdbc.Driver
+ 2017-07-09 16:51:33,212 - HHH000412: Hibernate Core {5.0.2.Final}
+ 2017-07-09 16:51:33,215 - HHH000206: hibernate.properties not found
+ 2017-07-09 16:51:33,218 - HHH000021: Bytecode provider name : javassist
+ 2017-07-09 16:51:33,339 - HCANN000001: Hibernate Commons Annotations {5.0.0.Final}
+ 2017-07-09 16:51:35,613 - HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+ 2017-07-09 16:51:35,632 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+ 2017-07-09 16:51:35,660 - HHH000422: Disabling contextual LOB creation as connection was null
+ 2017-07-09 16:51:38,322 - http://paimai.taobao.com/pmp_item/553473377696.htm, current thread:16
+ 2017-07-09 16:51:38,329 - http://paimai.taobao.com/pmp_item/552929665702.htm, current thread:17
+ 2017-07-09 16:51:38,331 - http://paimai.taobao.com/pmp_item/552863704429.htm, current thread:18
+ 2017-07-09 16:51:38,334 - http://paimai.taobao.com/pmp_item/553140330293.htm, current thread:19
+ 2017-07-09 16:51:38,338 - http://paimai.taobao.com/pmp_item/554118291424.htm, current thread:21
+ 2017-07-09 16:51:38,340 - http://paimai.taobao.com/pmp_item/554031901856.htm, current thread:22
+ 2017-07-09 16:51:38,343 - http://paimai.taobao.com/pmp_item/553139146339.htm, current thread:23
+ 2017-07-09 16:51:38,345 - http://paimai.taobao.com/pmp_item/553133426045.htm, current thread:26
+ 2017-07-09 16:51:38,347 - http://paimai.taobao.com/pmp_item/553345668087.htm, current thread:27
+ 2017-07-09 16:51:38,354 - http://paimai.taobao.com/pmp_item/553137862464.htm, current thread:30
+ 2017-07-09 16:51:38,356 - http://paimai.taobao.com/pmp_item/553138582548.htm, current thread:31
+ 2017-07-09 16:51:38,374 - http://paimai.taobao.com/pmp_item/553949528495.htm, current thread:66
+ 2017-07-09 16:51:38,375 - http://paimai.taobao.com/pmp_item/554053974587.htm, current thread:67
+ 2017-07-09 16:51:38,376 - http://paimai.taobao.com/pmp_item/554101167199.htm, current thread:70
+ 2017-07-09 16:51:38,377 - http://paimai.taobao.com/pmp_item/554018489811.htm, current thread:68
+ 2017-07-09 16:51:38,377 - http://paimai.taobao.com/pmp_item/554018877199.htm, current thread:69
+ 2017-07-09 16:51:38,378 - http://paimai.taobao.com/pmp_item/554019089420.htm, current thread:72
+ 2017-07-09 16:51:38,378 - http://paimai.taobao.com/pmp_item/554019457218.htm, current thread:73
+ 2017-07-09 16:51:38,380 - http://paimai.taobao.com/pmp_item/554132244232.htm, current thread:71
+ 2017-07-09 16:51:38,381 - http://paimai.taobao.com/pmp_item/554054958283.htm, current thread:74
+ 2017-07-09 16:51:38,381 - http://paimai.taobao.com/pmp_item/554102055852.htm, current thread:75
+ 2017-07-09 16:51:38,382 - http://paimai.taobao.com/pmp_item/554068218464.htm, current thread:89
+ 2017-07-09 16:51:38,382 - http://paimai.taobao.com/pmp_item/553963652310.htm, current thread:90
+ 2017-07-09 16:51:38,382 - http://paimai.taobao.com/pmp_item/554030665202.htm, current thread:86
+ 2017-07-09 16:51:38,382 - http://paimai.taobao.com/pmp_item/554029897940.htm, current thread:85
+ 2017-07-09 16:51:38,382 - http://paimai.taobao.com/pmp_item/554285763169.htm, current thread:82
+ 2017-07-09 16:51:38,381 - http://paimai.taobao.com/pmp_item/554111263746.htm, current thread:81
+ 2017-07-09 16:51:38,382 - http://paimai.taobao.com/pmp_item/554103419564.htm, current thread:78
+ 2017-07-09 16:51:38,381 - http://paimai.taobao.com/pmp_item/554113875157.htm, current thread:77
+ 2017-07-09 16:51:38,384 - http://paimai.taobao.com/pmp_item/553964508587.htm, current thread:91
+ 2017-07-09 16:51:38,384 - http://paimai.taobao.com/pmp_item/554071666284.htm, current thread:98
+ 2017-07-09 16:51:38,385 - http://paimai.taobao.com/pmp_item/554132828053.htm, current thread:95
+ 2017-07-09 16:51:38,385 - http://paimai.taobao.com/pmp_item/554131772722.htm, current thread:64
+ 2017-07-09 16:51:38,386 - http://paimai.taobao.com/pmp_item/553346852489.htm, current thread:60
+ 2017-07-09 16:51:38,386 - http://paimai.taobao.com/pmp_item/554132692631.htm, current thread:57
+ 2017-07-09 16:51:38,386 - http://paimai.taobao.com/pmp_item/554036581104.htm, current thread:102
+ 2017-07-09 16:51:38,384 - http://paimai.taobao.com/pmp_item/554071278024.htm, current thread:94
+ 2017-07-09 16:51:38,386 - http://paimai.taobao.com/pmp_item/553206720816.htm, current thread:41
+ 2017-07-09 16:51:38,387 - http://paimai.taobao.com/pmp_item/553032772463.htm, current thread:52
+ 2017-07-09 16:51:38,383 - http://paimai.taobao.com/pmp_item/554066746065.htm, current thread:87
+ 2017-07-09 16:51:38,387 - http://paimai.taobao.com/pmp_item/553135126041.htm, current thread:29
+ 2017-07-09 16:51:38,387 - http://paimai.taobao.com/pmp_item/553951780618.htm, current thread:76
+ 2017-07-09 16:51:38,382 - http://paimai.taobao.com/pmp_item/554286123855.htm, current thread:83
+ 2017-07-09 16:51:38,382 - http://paimai.taobao.com/pmp_item/553959688468.htm, current thread:79
+ 2017-07-09 16:51:38,388 - http://paimai.taobao.com/pmp_item/554064474742.htm, current thread:80
+ 2017-07-09 16:51:38,389 - http://paimai.taobao.com/pmp_item/553556723872.htm, current thread:49
+ 2017-07-09 16:51:38,390 - http://paimai.taobao.com/pmp_item/553962868142.htm, current thread:88
+ 2017-07-09 16:51:38,392 - http://paimai.taobao.com/pmp_item/553204868514.htm, current thread:48
+ 2017-07-09 16:51:38,393 - http://paimai.taobao.com/pmp_item/553032436105.htm, current thread:44
+ 2017-07-09 16:51:38,387 - http://paimai.taobao.com/pmp_item/553555859756.htm, current thread:25
+ 2017-07-09 16:51:38,396 - http://paimai.taobao.com/pmp_item/553505826105.htm, current thread:28
+ 2017-07-09 16:51:38,387 - http://paimai.taobao.com/pmp_item/553134690453.htm, current thread:33
+ 2017-07-09 16:51:38,387 - http://paimai.taobao.com/pmp_item/553204444578.htm, current thread:37
+ 2017-07-09 16:51:38,386 - http://paimai.taobao.com/pmp_item/553186959504.htm, current thread:45
+ 2017-07-09 16:51:38,386 - http://paimai.taobao.com/pmp_item/554069218602.htm, current thread:56
+ 2017-07-09 16:51:38,386 - http://paimai.taobao.com/pmp_item/554036565326.htm, current thread:53
+ 2017-07-09 16:51:38,386 - http://paimai.taobao.com/pmp_item/553966840801.htm, current thread:99
+ 2017-07-09 16:51:38,386 - http://paimai.taobao.com/pmp_item/553948556353.htm, current thread:61
+ 2017-07-09 16:51:38,683 - http://paimai.taobao.com/pmp_item/547171656183.htm, current thread:103
+ 2017-07-09 16:51:38,691 - http://paimai.taobao.com/pmp_item/547206473868.htm, current thread:104
+ 2017-07-09 16:51:38,692 - http://paimai.taobao.com/pmp_item/549594387458.htm, current thread:108
+ 2017-07-09 16:51:38,693 - http://paimai.taobao.com/pmp_item/550082336209.htm, current thread:112
+ 2017-07-09 16:51:38,695 - http://paimai.taobao.com/pmp_item/547962768496.htm, current thread:116
+ 2017-07-09 16:51:38,707 - http://paimai.taobao.com/pmp_item/547209229146.htm, current thread:107
+ 2017-07-09 16:51:38,724 - http://paimai.taobao.com/pmp_item/550162698813.htm, current thread:111
+ 2017-07-09 16:51:38,725 - http://paimai.taobao.com/pmp_item/548940197367.htm, current thread:115
+ 2017-07-09 16:51:38,733 - http://paimai.taobao.com/pmp_item/548668478278.htm, current thread:119
+ 2017-07-09 16:51:38,734 - http://paimai.taobao.com/pmp_item/547208665901.htm, current thread:106
+ 2017-07-09 16:51:38,739 - http://paimai.taobao.com/pmp_item/548600468500.htm, current thread:110
+ 2017-07-09 16:51:38,746 - http://paimai.taobao.com/pmp_item/547229030879.htm, current thread:114
+ 2017-07-09 16:51:38,748 - http://paimai.taobao.com/pmp_item/548918056714.htm, current thread:118
+ 2017-07-09 16:51:38,386 - http://paimai.taobao.com/pmp_item/554018065990.htm, current thread:65
+ 2017-07-09 16:51:38,492 - http://paimai.taobao.com/pmp_item/554036173019.htm, current thread:97
+ 2017-07-09 16:51:38,452 - http://paimai.taobao.com/pmp_item/554204549947.htm, current thread:93
+ 2017-07-09 16:51:38,452 - http://paimai.taobao.com/pmp_item/554286539189.htm, current thread:101
+ 2017-07-09 16:51:38,760 - http://paimai.taobao.com/pmp_item/547205757773.htm, current thread:105
+ 2017-07-09 16:51:38,761 - http://paimai.taobao.com/pmp_item/548697611243.htm, current thread:109
+ 2017-07-09 16:51:38,761 - http://paimai.taobao.com/pmp_item/550163310530.htm, current thread:113
+ 2017-07-09 16:51:38,762 - http://paimai.taobao.com/pmp_item/549233999659.htm, current thread:117
+ 2017-07-09 16:51:38,399 - http://paimai.taobao.com/pmp_item/554276135797.htm, current thread:35
+ 2017-07-09 16:51:38,399 - http://paimai.taobao.com/pmp_item/553040324554.htm, current thread:39
+ 2017-07-09 16:51:38,399 - http://paimai.taobao.com/pmp_item/553560160431.htm, current thread:43
+ 2017-07-09 16:51:38,398 - http://paimai.taobao.com/pmp_item/553134162702.htm, current thread:47
+ 2017-07-09 16:51:38,398 - http://paimai.taobao.com/pmp_item/553558752367.htm, current thread:51
+ 2017-07-09 16:51:38,398 - http://paimai.taobao.com/pmp_item/553345756236.htm, current thread:55
+ 2017-07-09 16:51:38,398 - http://paimai.taobao.com/pmp_item/553493791471.htm, current thread:59
+ 2017-07-09 16:51:38,398 - http://paimai.taobao.com/pmp_item/554053618467.htm, current thread:63
+ 2017-07-09 16:51:38,397 - http://paimai.taobao.com/pmp_item/554072162848.htm, current thread:100
+ 2017-07-09 16:51:38,397 - http://paimai.taobao.com/pmp_item/553039100632.htm, current thread:34
+ 2017-07-09 16:51:38,397 - http://paimai.taobao.com/pmp_item/553558728488.htm, current thread:58
+ 2017-07-09 16:51:38,397 - http://paimai.taobao.com/pmp_item/554035609808.htm, current thread:96
+ 2017-07-09 16:51:38,397 - http://paimai.taobao.com/pmp_item/553107693257.htm, current thread:38
+ 2017-07-09 16:51:38,397 - http://paimai.taobao.com/pmp_item/554017829936.htm, current thread:62
+ 2017-07-09 16:51:38,397 - http://paimai.taobao.com/pmp_item/554033865676.htm, current thread:92
+ 2017-07-09 16:51:38,397 - http://paimai.taobao.com/pmp_item/553504806062.htm, current thread:24
+ 2017-07-09 16:51:38,397 - http://paimai.taobao.com/pmp_item/553041028416.htm, current thread:42
+ 2017-07-09 16:51:38,396 - http://paimai.taobao.com/pmp_item/554020525272.htm, current thread:54
+ 2017-07-09 16:51:38,396 - http://paimai.taobao.com/pmp_item/554123164500.htm, current thread:36
+ 2017-07-09 16:51:38,396 - http://paimai.taobao.com/pmp_item/553270253993.htm, current thread:46
+ 2017-07-09 16:51:38,396 - http://paimai.taobao.com/pmp_item/553705255333.htm, current thread:50
+ 2017-07-09 16:51:38,396 - http://paimai.taobao.com/pmp_item/553105157371.htm, current thread:32
+ 2017-07-09 16:51:38,396 - http://paimai.taobao.com/pmp_item/552965310113.htm, current thread:20
+ 2017-07-09 16:51:38,394 - http://paimai.taobao.com/pmp_item/553108189272.htm, current thread:40
+ 2017-07-09 16:51:38,390 - http://paimai.taobao.com/pmp_item/553960284694.htm, current thread:84
+ 2017-07-09 16:51:39,294 - http://paimai.taobao.com/pmp_item/553492497708.htm, current thread:123
+ 2017-07-09 16:51:39,300 - http://paimai.taobao.com/pmp_item/552512672139.htm, current thread:127
+ 2017-07-09 16:51:39,301 - http://paimai.taobao.com/pmp_item/553420896197.htm, current thread:131
+ 2017-07-09 16:51:39,302 - http://paimai.taobao.com/pmp_item/553651302846.htm, current thread:135
+ 2017-07-09 16:51:39,303 - http://paimai.taobao.com/pmp_item/554229189723.htm, current thread:139
+ 2017-07-09 16:51:39,304 - http://paimai.taobao.com/pmp_item/553692467698.htm, current thread:143
+ 2017-07-09 16:51:39,304 - http://paimai.taobao.com/pmp_item/553620189219.htm, current thread:147
+ 2017-07-09 16:51:39,305 - http://paimai.taobao.com/pmp_item/552700555394.htm, current thread:151
+ 2017-07-09 16:51:39,310 - http://paimai.taobao.com/pmp_item/554079114899.htm, current thread:155
+ 2017-07-09 16:51:39,313 - http://paimai.taobao.com/pmp_item/554333051378.htm, current thread:159
+ 2017-07-09 16:51:39,314 - http://paimai.taobao.com/pmp_item/553752783298.htm, current thread:163
+ 2017-07-09 16:51:39,315 - http://paimai.taobao.com/pmp_item/553415552982.htm, current thread:167
+ 2017-07-09 16:51:39,315 - http://paimai.taobao.com/pmp_item/554128271048.htm, current thread:171
+ 2017-07-09 16:51:39,316 - http://paimai.taobao.com/pmp_item/553336349990.htm, current thread:175
+ 2017-07-09 16:51:39,317 - http://paimai.taobao.com/pmp_item/553681867181.htm, current thread:179
+ 2017-07-09 16:51:39,319 - http://paimai.taobao.com/pmp_item/553414319960.htm, current thread:183
+ 2017-07-09 16:51:39,319 - http://paimai.taobao.com/pmp_item/553757988850.htm, current thread:124
+ 2017-07-09 16:51:39,320 - http://paimai.taobao.com/pmp_item/554176036978.htm, current thread:128
+ 2017-07-09 16:51:39,321 - http://paimai.taobao.com/pmp_item/553672121530.htm, current thread:187
+ 2017-07-09 16:51:39,322 - http://paimai.taobao.com/pmp_item/554250721114.htm, current thread:132
+ 2017-07-09 16:51:39,323 - http://paimai.taobao.com/pmp_item/553316497654.htm, current thread:136
+ 2017-07-09 16:51:39,324 - http://paimai.taobao.com/pmp_item/553332704250.htm, current thread:191
+ 2017-07-09 16:51:39,324 - http://paimai.taobao.com/pmp_item/553656246913.htm, current thread:140
+ 2017-07-09 16:51:39,325 - http://paimai.taobao.com/pmp_item/552675874356.htm, current thread:195
+ 2017-07-09 16:51:39,326 - http://paimai.taobao.com/pmp_item/553394755926.htm, current thread:144
+ 2017-07-09 16:51:39,327 - http://paimai.taobao.com/pmp_item/553195760668.htm, current thread:199
+ 2017-07-09 16:51:39,327 - http://paimai.taobao.com/pmp_item/553525778967.htm, current thread:148
+ 2017-07-09 16:51:39,328 - http://paimai.taobao.com/pmp_item/547194955471.htm, current thread:203
+ 2017-07-09 16:51:39,330 - http://paimai.taobao.com/pmp_item/554322755551.htm, current thread:160
+ 2017-07-09 16:51:39,329 - http://paimai.taobao.com/pmp_item/553520970858.htm, current thread:156
+ 2017-07-09 16:51:39,328 - http://paimai.taobao.com/pmp_item/553708346523.htm, current thread:152
+ 2017-07-09 16:51:39,349 - http://paimai.taobao.com/pmp_item/554113943242.htm, current thread:209
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/552608082373.htm, current thread:205
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/553251112766.htm, current thread:201
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/553266360472.htm, current thread:197
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/554075514604.htm, current thread:193
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/553704930285.htm, current thread:189
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/554078266748.htm, current thread:185
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/553613833374.htm, current thread:181
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/553688999036.htm, current thread:177
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/553269228856.htm, current thread:173
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/553970260516.htm, current thread:169
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/553648986430.htm, current thread:165
+ 2017-07-09 16:51:39,348 - http://paimai.taobao.com/pmp_item/553614425611.htm, current thread:161
+ 2017-07-09 16:51:39,347 - http://paimai.taobao.com/pmp_item/554174340496.htm, current thread:157
+ 2017-07-09 16:51:39,347 - http://paimai.taobao.com/pmp_item/554122583094.htm, current thread:153
+ 2017-07-09 16:51:39,347 - http://paimai.taobao.com/pmp_item/552513320103.htm, current thread:149
+ 2017-07-09 16:51:39,347 - http://paimai.taobao.com/pmp_item/554129995811.htm, current thread:145
+ 2017-07-09 16:51:39,347 - http://paimai.taobao.com/pmp_item/553619445077.htm, current thread:141
+ 2017-07-09 16:51:39,347 - http://paimai.taobao.com/pmp_item/553522434688.htm, current thread:137
+ 2017-07-09 16:51:39,346 - http://paimai.taobao.com/pmp_item/553306206089.htm, current thread:133
+ 2017-07-09 16:51:39,346 - http://paimai.taobao.com/pmp_item/553410827550.htm, current thread:129
+ 2017-07-09 16:51:39,346 - http://paimai.taobao.com/pmp_item/554079334287.htm, current thread:125
+ 2017-07-09 16:51:39,346 - http://paimai.taobao.com/pmp_item/551615564954.htm, current thread:121
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/547468480679.htm, current thread:206
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/554112923903.htm, current thread:210
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/553349846708.htm, current thread:202
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/553357494990.htm, current thread:198
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/553265932945.htm, current thread:194
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/553619937873.htm, current thread:190
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/553690680471.htm, current thread:186
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/553652906526.htm, current thread:182
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/554034477352.htm, current thread:178
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/553559343132.htm, current thread:174
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/554125579647.htm, current thread:170
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/553315389589.htm, current thread:162
+ 2017-07-09 16:51:39,342 - http://paimai.taobao.com/pmp_item/553654102808.htm, current thread:166
+ 2017-07-09 16:51:39,341 - http://paimai.taobao.com/pmp_item/554240473409.htm, current thread:158
+ 2017-07-09 16:51:39,341 - http://paimai.taobao.com/pmp_item/554039025303.htm, current thread:154
+ 2017-07-09 16:51:39,341 - http://paimai.taobao.com/pmp_item/553603888701.htm, current thread:150
+ 2017-07-09 16:51:39,341 - http://paimai.taobao.com/pmp_item/554035977759.htm, current thread:146
+ 2017-07-09 16:51:39,340 - http://paimai.taobao.com/pmp_item/553978064558.htm, current thread:142
+ 2017-07-09 16:51:39,340 - http://paimai.taobao.com/pmp_item/554123447891.htm, current thread:138
+ 2017-07-09 16:51:39,340 - http://paimai.taobao.com/pmp_item/553982206729.htm, current thread:134
+ 2017-07-09 16:51:39,340 - http://paimai.taobao.com/pmp_item/554173100373.htm, current thread:130
+ 2017-07-09 16:51:39,340 - http://paimai.taobao.com/pmp_item/553205580544.htm, current thread:126
+ 2017-07-09 16:51:39,340 - http://paimai.taobao.com/pmp_item/554331543962.htm, current thread:122
+ 2017-07-09 16:51:39,655 - http://paimai.taobao.com/pmp_item/554324401323.htm, current thread:214
+ 2017-07-09 16:51:39,339 - http://paimai.taobao.com/pmp_item/552619905141.htm, current thread:211
+ 2017-07-09 16:51:39,339 - http://paimai.taobao.com/pmp_item/547160370455.htm, current thread:207
+ 2017-07-09 16:51:39,657 - http://paimai.taobao.com/pmp_item/554216444132.htm, current thread:215
+ 2017-07-09 16:51:39,335 - http://paimai.taobao.com/pmp_item/552649563255.htm, current thread:212
+ 2017-07-09 16:51:39,335 - http://paimai.taobao.com/pmp_item/554077422674.htm, current thread:208
+ 2017-07-09 16:51:39,335 - http://paimai.taobao.com/pmp_item/552634309816.htm, current thread:204
+ 2017-07-09 16:51:39,335 - http://paimai.taobao.com/pmp_item/553255360535.htm, current thread:200
+ 2017-07-09 16:51:39,335 - http://paimai.taobao.com/pmp_item/554124987523.htm, current thread:196
+ 2017-07-09 16:51:39,334 - http://paimai.taobao.com/pmp_item/553332729142.htm, current thread:192
+ 2017-07-09 16:51:39,334 - http://paimai.taobao.com/pmp_item/554284534401.htm, current thread:188
+ 2017-07-09 16:51:39,334 - http://paimai.taobao.com/pmp_item/553522122005.htm, current thread:184
+ 2017-07-09 16:51:39,333 - http://paimai.taobao.com/pmp_item/553637502631.htm, current thread:180
+ 2017-07-09 16:51:39,333 - http://paimai.taobao.com/pmp_item/552573097906.htm, current thread:176
+ 2017-07-09 16:51:39,333 - http://paimai.taobao.com/pmp_item/548622226801.htm, current thread:172
+ 2017-07-09 16:51:39,332 - http://paimai.taobao.com/pmp_item/553378450880.htm, current thread:168
+ 2017-07-09 16:51:39,332 - http://paimai.taobao.com/pmp_item/553491377739.htm, current thread:164
+ 2017-07-09 16:51:39,712 - http://paimai.taobao.com/pmp_item/554327537961.htm, current thread:216
+ 2017-07-09 16:51:40,106 - http://paimai.taobao.com/pmp_item/554508567786.htm, current thread:213
+ 2017-07-09 16:51:46,051 - https://img.alicdn.com/imgextra/i3/2418179653/TB2PVpohNRDOuFjSZFzXXcIipXa_!!2418179653.jpg not exist
+ 2017-07-09 16:51:47,426 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:52:00,291 - D:\图集\和田玉图集\收藏保值无底价捡漏和田玉专场\干净细糯【蝶恋花】和田玉碧玉玉牌挂件手感舒适脂感佳30克\TB2iAXSsa8lpuFjy0FpXXaGrpXa_!!2418179653.jpg exist already
+ 2017-07-09 16:52:01,682 - D:\图集\和田玉图集\收藏保值无底价捡漏和田玉专场\特色黑皮【乾坤逆转富贵来】和田玉白玉龙龟挂件细腻油润54克\TB2JPlppNRDOuFjSZFzXXcIipXa_!!2418179653.jpg exist already
+ 2017-07-09 16:52:02,405 - http://paimai.taobao.com/pmp_item/554424825067.htm, current thread:142
+ 2017-07-09 16:52:03,734 - http://paimai.taobao.com/pmp_item/554365602388.htm, current thread:27
+ 2017-07-09 16:52:03,795 - D:\图集\和田玉图集\收藏保值无底价捡漏和田玉专场\【马到成功】脂粉足和田玉白玉生肖马挂件细腻温润28克\TB2ngX3xHBmpuFjSZFuXXaG_XXa_!!2418179653.jpg exist already
+ 2017-07-09 16:52:03,843 - D:\图集\和田玉图集\收藏保值无底价捡漏和田玉专场\【马到成功】脂粉足和田玉白玉生肖马挂件细腻温润28克\TB2ngX3xHBmpuFjSZFuXXaG_XXa_!!2418179653.jpg exist already
+ 2017-07-09 16:52:04,199 - http://paimai.taobao.com/pmp_item/553696038347.htm, current thread:191
+ 2017-07-09 16:52:06,342 - https://img.alicdn.com/imgextra/i2/2418179653/TB2Kx0JaOC9MuFjSZFoXXbUzFXa_!!2418179653.jpg not exist
+ 2017-07-09 16:52:07,426 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:52:08,924 - http://paimai.taobao.com/pmp_item/554415332978.htm, current thread:90
+ 2017-07-09 16:52:09,571 - http://paimai.taobao.com/pmp_item/554460696817.htm, current thread:23
+ 2017-07-09 16:52:10,208 - http://paimai.taobao.com/pmp_item/554360316181.htm, current thread:48
+ 2017-07-09 16:52:10,557 - http://paimai.taobao.com/pmp_item/554662988611.htm, current thread:178
+ 2017-07-09 16:52:10,667 - http://paimai.taobao.com/pmp_item/552316012267.htm, current thread:200
+ 2017-07-09 16:52:10,797 - http://paimai.taobao.com/pmp_item/554460388733.htm, current thread:59
+ 2017-07-09 16:52:12,195 - http://paimai.taobao.com/pmp_item/553598476020.htm, current thread:149
+ 2017-07-09 16:52:12,216 - http://paimai.taobao.com/pmp_item/554825335918.htm, current thread:43
+ 2017-07-09 16:52:12,368 - http://paimai.taobao.com/pmp_item/554514203764.htm, current thread:144
+ 2017-07-09 16:52:12,552 - http://paimai.taobao.com/pmp_item/554573663852.htm, current thread:31
+ 2017-07-09 16:52:12,852 - http://paimai.taobao.com/pmp_item/554614426586.htm, current thread:79
+ 2017-07-09 16:52:13,525 - http://paimai.taobao.com/pmp_item/547245744124.htm, current thread:58
+ 2017-07-09 16:52:13,680 - http://paimai.taobao.com/pmp_item/554415524186.htm, current thread:76
+ 2017-07-09 16:52:14,037 - http://paimai.taobao.com/pmp_item/554386173171.htm, current thread:99
+ 2017-07-09 16:52:14,150 - http://paimai.taobao.com/pmp_item/551595564721.htm, current thread:60
+ 2017-07-09 16:52:14,379 - http://paimai.taobao.com/pmp_item/554425426327.htm, current thread:177
+ 2017-07-09 16:52:14,831 - http://paimai.taobao.com/pmp_item/554347712439.htm, current thread:30
+ 2017-07-09 16:52:14,831 - https://img.alicdn.com/imgextra/i3/2418179653/TB2C5zfXN3X61Bjy0FlXXaGtVXa_!!2418179653.jpg not exist
+ 2017-07-09 16:52:15,393 - http://paimai.taobao.com/pmp_item/554406095592.htm, current thread:33
+ 2017-07-09 16:52:15,419 - http://paimai.taobao.com/pmp_item/554371906627.htm, current thread:69
+ 2017-07-09 16:52:15,706 - http://paimai.taobao.com/pmp_item/553627394521.htm, current thread:179
+ 2017-07-09 16:52:15,708 - http://paimai.taobao.com/pmp_item/554354004052.htm, current thread:95
+ 2017-07-09 16:52:16,164 - http://paimai.taobao.com/pmp_item/553665761741.htm, current thread:215
+ 2017-07-09 16:52:16,177 - http://paimai.taobao.com/pmp_item/550176374365.htm, current thread:86
+ 2017-07-09 16:52:16,385 - http://paimai.taobao.com/pmp_item/553675291121.htm, current thread:198
+ 2017-07-09 16:52:16,555 - http://paimai.taobao.com/pmp_item/554313045960.htm, current thread:36
+ 2017-07-09 16:52:16,738 - http://paimai.taobao.com/pmp_item/554474439326.htm, current thread:85
+ 2017-07-09 16:52:16,747 - http://paimai.taobao.com/pmp_item/553704450827.htm, current thread:24
+ 2017-07-09 16:52:16,751 - http://paimai.taobao.com/pmp_item/553691577321.htm, current thread:186
+ 2017-07-09 16:52:16,789 - http://paimai.taobao.com/pmp_item/545812726750.htm, current thread:41
+ 2017-07-09 16:52:16,830 - http://paimai.taobao.com/pmp_item/553723542220.htm, current thread:180
+ 2017-07-09 16:52:17,334 - http://paimai.taobao.com/pmp_item/554261588037.htm, current thread:66
+ 2017-07-09 16:52:17,733 - http://paimai.taobao.com/pmp_item/554215900705.htm, current thread:55
+ 2017-07-09 16:52:17,872 - http://paimai.taobao.com/pmp_item/553677409394.htm, current thread:205
+ 2017-07-09 16:52:17,984 - http://paimai.taobao.com/pmp_item/553601101792.htm, current thread:197
+ 2017-07-09 16:52:18,306 - http://paimai.taobao.com/pmp_item/553529180369.htm, current thread:97
+ 2017-07-09 16:52:18,378 - http://paimai.taobao.com/pmp_item/553601937674.htm, current thread:125
+ 2017-07-09 16:52:18,379 - http://paimai.taobao.com/pmp_item/551849544161.htm, current thread:189
+ 2017-07-09 16:52:18,915 - http://paimai.taobao.com/pmp_item/553594845637.htm, current thread:39
+ 2017-07-09 16:52:18,957 - http://paimai.taobao.com/pmp_item/552467971783.htm, current thread:16
+ 2017-07-09 16:52:19,864 - http://paimai.taobao.com/pmp_item/554315704740.htm, current thread:98
+ 2017-07-09 16:52:20,185 - http://paimai.taobao.com/pmp_item/546632240757.htm, current thread:92
+ 2017-07-09 16:52:20,305 - http://paimai.taobao.com/pmp_item/553632398085.htm, current thread:37
+ 2017-07-09 16:52:20,406 - http://paimai.taobao.com/pmp_item/554432161965.htm, current thread:70
+ 2017-07-09 16:52:20,912 - http://paimai.taobao.com/pmp_item/553603173184.htm, current thread:34
+ 2017-07-09 16:52:21,018 - http://paimai.taobao.com/pmp_item/553594957769.htm, current thread:51
+ 2017-07-09 16:52:21,071 - http://paimai.taobao.com/pmp_item/554417692502.htm, current thread:185
+ 2017-07-09 16:52:21,210 - http://paimai.taobao.com/pmp_item/553641542077.htm, current thread:77
+ 2017-07-09 16:52:21,317 - http://paimai.taobao.com/pmp_item/547836519857.htm, current thread:100
+ 2017-07-09 16:52:21,380 - http://paimai.taobao.com/pmp_item/553726902013.htm, current thread:170
+ 2017-07-09 16:52:21,380 - http://paimai.taobao.com/pmp_item/554369090381.htm, current thread:28
+ 2017-07-09 16:52:21,819 - http://paimai.taobao.com/pmp_item/554341790058.htm, current thread:68
+ 2017-07-09 16:52:22,644 - http://paimai.taobao.com/pmp_item/553528688302.htm, current thread:35
+ 2017-07-09 16:52:22,715 - http://paimai.taobao.com/pmp_item/554358896166.htm, current thread:67
+ 2017-07-09 16:52:22,795 - http://paimai.taobao.com/pmp_item/551829481679.htm, current thread:203
+ 2017-07-09 16:52:23,248 - http://paimai.taobao.com/pmp_item/553682611056.htm, current thread:207
+ 2017-07-09 16:52:23,406 - http://paimai.taobao.com/pmp_item/553594753436.htm, current thread:44
+ 2017-07-09 16:52:23,634 - http://paimai.taobao.com/pmp_item/553684183578.htm, current thread:166
+ 2017-07-09 16:52:23,710 - http://paimai.taobao.com/pmp_item/553065808968.htm, current thread:94
+ 2017-07-09 16:52:24,110 - http://paimai.taobao.com/pmp_item/550150261874.htm, current thread:74
+ 2017-07-09 16:52:24,237 - http://paimai.taobao.com/pmp_item/553603677140.htm, current thread:210
+ 2017-07-09 16:52:24,586 - http://paimai.taobao.com/pmp_item/553188885372.htm, current thread:124
+ 2017-07-09 16:52:24,736 - http://paimai.taobao.com/pmp_item/552459647124.htm, current thread:128
+ 2017-07-09 16:52:24,936 - http://paimai.taobao.com/pmp_item/553536696336.htm, current thread:209
+ 2017-07-09 16:52:25,188 - http://paimai.taobao.com/pmp_item/553638110705.htm, current thread:152
+ 2017-07-09 16:52:25,485 - http://paimai.taobao.com/pmp_item/553525312277.htm, current thread:91
+ 2017-07-09 16:52:26,109 - http://paimai.taobao.com/pmp_item/554417813171.htm, current thread:26
+ 2017-07-09 16:52:26,110 - http://paimai.taobao.com/pmp_item/553540644435.htm, current thread:183
+ 2017-07-09 16:52:26,180 - http://paimai.taobao.com/pmp_item/553602541675.htm, current thread:174
+ 2017-07-09 16:52:26,447 - http://paimai.taobao.com/pmp_item/553676987211.htm, current thread:192
+ 2017-07-09 16:52:26,988 - http://paimai.taobao.com/pmp_item/552384709707.htm, current thread:211
+ 2017-07-09 16:52:27,022 - http://paimai.taobao.com/pmp_item/553535368650.htm, current thread:84
+ 2017-07-09 16:52:27,080 - https://img.alicdn.com/imgextra/i3/2418179653/TB2C5zfXN3X61Bjy0FlXXaGtVXa_!!2418179653.jpg not exist
+ 2017-07-09 16:52:27,080 - http://paimai.taobao.com/pmp_item/554515403471.htm, current thread:201
+ 2017-07-09 16:52:27,112 - http://paimai.taobao.com/pmp_item/553528258296.htm, current thread:63
+ 2017-07-09 16:52:27,150 - http://paimai.taobao.com/pmp_item/553491343876.htm, current thread:75
+ 2017-07-09 16:52:27,426 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:52:27,559 - http://paimai.taobao.com/pmp_item/553364216945.htm, current thread:163
+ 2017-07-09 16:52:27,726 - http://paimai.taobao.com/pmp_item/553447826169.htm, current thread:46
+ 2017-07-09 16:52:27,879 - http://paimai.taobao.com/pmp_item/553569835788.htm, current thread:129
+ 2017-07-09 16:52:28,021 - http://paimai.taobao.com/pmp_item/553563387346.htm, current thread:176
+ 2017-07-09 16:52:28,885 - http://paimai.taobao.com/pmp_item/553527778018.htm, current thread:187
+ 2017-07-09 16:52:28,966 - http://paimai.taobao.com/pmp_item/553418248306.htm, current thread:173
+ 2017-07-09 16:52:29,099 - http://paimai.taobao.com/pmp_item/553560711743.htm, current thread:64
+ 2017-07-09 16:52:29,431 - http://paimai.taobao.com/pmp_item/553489857994.htm, current thread:82
+ 2017-07-09 16:52:29,511 - http://paimai.taobao.com/pmp_item/553425928309.htm, current thread:71
+ 2017-07-09 16:52:29,751 - http://paimai.taobao.com/pmp_item/553414481679.htm, current thread:87
+ 2017-07-09 16:52:29,995 - http://paimai.taobao.com/pmp_item/553509567120.htm, current thread:136
+ 2017-07-09 16:52:30,473 - http://paimai.taobao.com/pmp_item/553488561709.htm, current thread:162
+ 2017-07-09 16:52:30,555 - http://paimai.taobao.com/pmp_item/553480589092.htm, current thread:25
+ 2017-07-09 16:52:30,564 - http://paimai.taobao.com/pmp_item/553509147206.htm, current thread:172
+ 2017-07-09 16:52:30,852 - http://paimai.taobao.com/pmp_item/553487557089.htm, current thread:195
+ 2017-07-09 16:52:31,103 - http://paimai.taobao.com/pmp_item/553364684540.htm, current thread:206
+ 2017-07-09 16:52:31,175 - http://paimai.taobao.com/pmp_item/553916795395.htm, current thread:56
+ 2017-07-09 16:52:31,207 - http://paimai.taobao.com/pmp_item/553514618819.htm, current thread:29
+ 2017-07-09 16:52:32,404 - http://paimai.taobao.com/pmp_item/553467622332.htm, current thread:190
+ 2017-07-09 16:52:32,422 - http://paimai.taobao.com/pmp_item/553484513322.htm, current thread:150
+ 2017-07-09 16:52:32,490 - http://paimai.taobao.com/pmp_item/553515554906.htm, current thread:88
+ 2017-07-09 16:52:32,648 - http://paimai.taobao.com/pmp_item/553464522303.htm, current thread:212
+ 2017-07-09 16:52:33,116 - http://paimai.taobao.com/pmp_item/553523102799.htm, current thread:73
+ 2017-07-09 16:52:33,423 - http://paimai.taobao.com/pmp_item/553426040565.htm, current thread:191
+ 2017-07-09 16:52:33,705 - http://paimai.taobao.com/pmp_item/553410937524.htm, current thread:175
+ 2017-07-09 16:52:33,724 - http://paimai.taobao.com/pmp_item/553452546191.htm, current thread:50
+ 2017-07-09 16:52:33,836 - http://paimai.taobao.com/pmp_item/553449518120.htm, current thread:53
+ 2017-07-09 16:52:33,894 - http://paimai.taobao.com/pmp_item/554057552253.htm, current thread:151
+ 2017-07-09 16:52:34,478 - http://paimai.taobao.com/pmp_item/553496303235.htm, current thread:99
+ 2017-07-09 16:52:34,823 - http://paimai.taobao.com/pmp_item/553522486976.htm, current thread:204
+ 2017-07-09 16:52:35,141 - http://paimai.taobao.com/pmp_item/553349816605.htm, current thread:194
+ 2017-07-09 16:52:35,768 - http://paimai.taobao.com/pmp_item/553422136478.htm, current thread:47
+ 2017-07-09 16:52:36,135 - http://paimai.taobao.com/pmp_item/553493655316.htm, current thread:200
+ 2017-07-09 16:52:36,198 - D:\图集\和田玉图集\缤纷夏日无保留价和田玉专场\【如意】和田玉白玉挂件重量5093g\TB2ZKOMtR8kpuFjSspeXXc7IpXa_!!0-paimai.jpg exist already
+ 2017-07-09 16:52:36,336 - http://paimai.taobao.com/pmp_item/553347120079.htm, current thread:214
+ 2017-07-09 16:52:36,435 - http://paimai.taobao.com/pmp_item/553351672841.htm, current thread:182
+ 2017-07-09 16:52:36,484 - http://paimai.taobao.com/pmp_item/553453854355.htm, current thread:45
+ 2017-07-09 16:52:36,499 - http://paimai.taobao.com/pmp_item/553351508956.htm, current thread:215
+ 2017-07-09 16:52:36,508 - http://paimai.taobao.com/pmp_item/553453814559.htm, current thread:36
+ 2017-07-09 16:52:36,514 - http://paimai.taobao.com/pmp_item/553488863887.htm, current thread:127
+ 2017-07-09 16:52:37,800 - http://paimai.taobao.com/pmp_item/553341776593.htm, current thread:121
+ 2017-07-09 16:52:38,185 - http://paimai.taobao.com/pmp_item/551546803087.htm, current thread:89
+ 2017-07-09 16:52:38,186 - http://paimai.taobao.com/pmp_item/553481225093.htm, current thread:171
+ 2017-07-09 16:52:38,422 - http://paimai.taobao.com/pmp_item/553493939424.htm, current thread:31
+ 2017-07-09 16:52:38,808 - http://paimai.taobao.com/pmp_item/553365492001.htm, current thread:177
+ 2017-07-09 16:52:39,245 - http://paimai.taobao.com/pmp_item/551424724945.htm, current thread:32
+ 2017-07-09 16:52:39,536 - http://paimai.taobao.com/pmp_item/553767816386.htm, current thread:147
+ 2017-07-09 16:52:40,040 - http://paimai.taobao.com/pmp_item/553423776931.htm, current thread:96
+ 2017-07-09 16:52:40,888 - http://paimai.taobao.com/pmp_item/553508695615.htm, current thread:160
+ 2017-07-09 16:52:41,128 - http://paimai.taobao.com/pmp_item/553483369608.htm, current thread:37
+ 2017-07-09 16:52:41,591 - http://paimai.taobao.com/pmp_item/551417078513.htm, current thread:40
+ 2017-07-09 16:52:42,014 - D:\图集\和田玉图集\缤纷夏日无保留价和田玉专场\海派玉雕大师崔哲豪作品精品和田玉挂件八骏图10240g\TB25YIFtt4opuFjSZFLXXX8mXXa_!!0-paimai.jpg exist already
+ 2017-07-09 16:52:42,473 - http://paimai.taobao.com/pmp_item/554308559223.htm, current thread:80
+ 2017-07-09 16:52:43,466 - http://paimai.taobao.com/pmp_item/553508591147.htm, current thread:180
+ 2017-07-09 16:52:43,631 - http://paimai.taobao.com/pmp_item/553447614881.htm, current thread:182
+ 2017-07-09 16:52:43,852 - http://paimai.taobao.com/pmp_item/551477941432.htm, current thread:25
+ 2017-07-09 16:52:44,136 - http://paimai.taobao.com/pmp_item/551438572881.htm, current thread:86
+ 2017-07-09 16:52:44,207 - http://paimai.taobao.com/pmp_item/553413004108.htm, current thread:215
+ 2017-07-09 16:52:44,245 - http://paimai.taobao.com/pmp_item/553489171040.htm, current thread:85
+ 2017-07-09 16:52:44,312 - http://paimai.taobao.com/pmp_item/553464742439.htm, current thread:48
+ 2017-07-09 16:52:44,330 - http://paimai.taobao.com/pmp_item/553361776416.htm, current thread:146
+ 2017-07-09 16:52:44,528 - http://paimai.taobao.com/pmp_item/553428805392.htm, current thread:56
+ 2017-07-09 16:52:44,552 - http://paimai.taobao.com/pmp_item/553344892546.htm, current thread:27
+ 2017-07-09 16:52:44,719 - http://paimai.taobao.com/pmp_item/553415700548.htm, current thread:93
+ 2017-07-09 16:52:44,791 - http://paimai.taobao.com/pmp_item/551490837634.htm, current thread:149
+ 2017-07-09 16:52:45,021 - http://paimai.taobao.com/pmp_item/553462994914.htm, current thread:24
+ 2017-07-09 16:52:45,390 - http://paimai.taobao.com/pmp_item/554226473551.htm, current thread:42
+ 2017-07-09 16:52:45,652 - http://paimai.taobao.com/pmp_item/553462502748.htm, current thread:50
+ 2017-07-09 16:52:45,738 - http://paimai.taobao.com/pmp_item/553412929963.htm, current thread:43
+ 2017-07-09 16:52:45,951 - http://paimai.taobao.com/pmp_item/553493625683.htm, current thread:194
+ 2017-07-09 16:52:46,014 - http://paimai.taobao.com/pmp_item/553915907877.htm, current thread:179
+ 2017-07-09 16:52:46,219 - http://paimai.taobao.com/pmp_item/553428433677.htm, current thread:90
+ 2017-07-09 16:52:46,311 - http://paimai.taobao.com/pmp_item/553492487071.htm, current thread:134
+ 2017-07-09 16:52:46,334 - http://paimai.taobao.com/pmp_item/553448870120.htm, current thread:34
+ 2017-07-09 16:52:46,476 - http://paimai.taobao.com/pmp_item/553426372647.htm, current thread:81
+ 2017-07-09 16:52:46,867 - http://paimai.taobao.com/pmp_item/553492333308.htm, current thread:140
+ 2017-07-09 16:52:46,914 - http://paimai.taobao.com/pmp_item/553449798047.htm, current thread:35
+ 2017-07-09 16:52:47,072 - http://paimai.taobao.com/pmp_item/553494899046.htm, current thread:213
+ 2017-07-09 16:52:47,185 - http://paimai.taobao.com/pmp_item/553496107506.htm, current thread:45
+ 2017-07-09 16:52:47,219 - http://paimai.taobao.com/pmp_item/554056148935.htm, current thread:36
+ 2017-07-09 16:52:47,426 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:52:47,502 - http://paimai.taobao.com/pmp_item/553570671161.htm, current thread:205
+ 2017-07-09 16:52:47,533 - http://paimai.taobao.com/pmp_item/553490499172.htm, current thread:91
+ 2017-07-09 16:52:47,852 - http://paimai.taobao.com/pmp_item/553489985030.htm, current thread:126
+ 2017-07-09 16:52:47,888 - http://paimai.taobao.com/pmp_item/553489553218.htm, current thread:97
+ 2017-07-09 16:52:48,202 - http://paimai.taobao.com/pmp_item/551436376210.htm, current thread:67
+ 2017-07-09 16:52:48,205 - http://paimai.taobao.com/pmp_item/553524470689.htm, current thread:157
+ 2017-07-09 16:52:48,280 - http://paimai.taobao.com/pmp_item/554308279357.htm, current thread:99
+ 2017-07-09 16:52:48,535 - http://paimai.taobao.com/pmp_item/553568127163.htm, current thread:88
+ 2017-07-09 16:52:48,608 - http://paimai.taobao.com/pmp_item/553448574010.htm, current thread:55
+ 2017-07-09 16:52:48,792 - http://paimai.taobao.com/pmp_item/553420900768.htm, current thread:98
+ 2017-07-09 16:52:49,047 - http://paimai.taobao.com/pmp_item/553420144103.htm, current thread:212
+ 2017-07-09 16:52:49,106 - http://paimai.taobao.com/pmp_item/553491155530.htm, current thread:23
+ 2017-07-09 16:52:49,215 - http://paimai.taobao.com/pmp_item/553485177906.htm, current thread:133
+ 2017-07-09 16:52:49,231 - http://paimai.taobao.com/pmp_item/553447878455.htm, current thread:170
+ 2017-07-09 16:52:49,311 - http://paimai.taobao.com/pmp_item/553351448370.htm, current thread:135
+ 2017-07-09 16:52:49,956 - http://paimai.taobao.com/pmp_item/553561123507.htm, current thread:78
+ 2017-07-09 16:52:50,226 - http://paimai.taobao.com/pmp_item/553448570752.htm, current thread:209
+ 2017-07-09 16:52:50,337 - http://paimai.taobao.com/pmp_item/553563935518.htm, current thread:144
+ 2017-07-09 16:52:50,557 - D:\图集\和田玉图集\缤纷夏日无保留价和田玉专场\海派玉雕大师崔哲豪作品和田玉【貔貅】把件15003g\TB2twHwtR0lpuFjSszdXXcdxFXa_!!0-paimai.jpg exist already
+ 2017-07-09 16:52:50,718 - http://paimai.taobao.com/pmp_item/553413140478.htm, current thread:158
+ 2017-07-09 16:52:50,828 - http://paimai.taobao.com/pmp_item/553453146987.htm, current thread:111
+ 2017-07-09 16:52:51,307 - http://paimai.jd.com/103184836, current thread:39
+ 2017-07-09 16:52:51,310 - http://paimai.jd.com/103184779, current thread:178
+ 2017-07-09 16:52:51,336 - http://paimai.jd.com/103211806, current thread:198
+ 2017-07-09 16:52:51,533 - http://paimai.jd.com/103213797, current thread:201
+ 2017-07-09 16:52:51,540 - D:\图集\和田玉图集\缤纷夏日无保留价和田玉专场\玉雕名家韦龙作品【多子多福】和田玉挂件4225g\TB2c84HxHJmpuFjSZFwXXaE4VXa_!!0-paimai.jpg exist already
+ 2017-07-09 16:52:52,099 - http://paimai.jd.com/103211909, current thread:17
+ 2017-07-09 16:52:52,279 - http://paimai.jd.com/103213793, current thread:95
+ 2017-07-09 16:52:52,318 - http://paimai.jd.com/103212329, current thread:36
+ 2017-07-09 16:52:52,333 - http://paimai.jd.com/103213852, current thread:155
+ 2017-07-09 16:52:52,391 - http://paimai.jd.com/103227065, current thread:124
+ 2017-07-09 16:52:52,542 - http://paimai.jd.com/103213872, current thread:44
+ 2017-07-09 16:52:52,558 - http://paimai.jd.com/103073887, current thread:38
+ 2017-07-09 16:52:52,614 - http://paimai.jd.com/103213827, current thread:197
+ 2017-07-09 16:52:52,654 - http://paimai.jd.com/103212315, current thread:28
+ 2017-07-09 16:52:52,677 - http://paimai.jd.com/103227034, current thread:40
+ 2017-07-09 16:52:52,886 - http://paimai.jd.com/103217103, current thread:130
+ 2017-07-09 16:52:52,980 - http://paimai.jd.com/103213780, current thread:173
+ 2017-07-09 16:52:53,152 - http://paimai.jd.com/103212736, current thread:192
+ 2017-07-09 16:52:53,185 - http://paimai.jd.com/103213788, current thread:207
+ 2017-07-09 16:52:53,760 - http://paimai.jd.com/103212590, current thread:74
+ 2017-07-09 16:52:54,027 - http://paimai.jd.com/103212562, current thread:87
+ 2017-07-09 16:52:54,053 - http://paimai.jd.com/103212312, current thread:77
+ 2017-07-09 16:52:54,205 - http://paimai.jd.com/103212555, current thread:156
+ 2017-07-09 16:52:54,274 - http://paimai.jd.com/103249992, current thread:102
+ 2017-07-09 16:52:54,426 - http://paimai.jd.com/103249968, current thread:65
+ 2017-07-09 16:52:54,751 - http://paimai.jd.com/103212144, current thread:159
+ 2017-07-09 16:52:56,105 - http://paimai.jd.com/103199489, current thread:76
+ 2017-07-09 16:52:56,112 - http://paimai.jd.com/103061098, current thread:216
+ 2017-07-09 16:52:56,148 - http://paimai.jd.com/102953469, current thread:128
+ 2017-07-09 16:52:56,186 - D:\图集\和田玉图集\缤纷夏日无保留价和田玉专场\玉雕名家韦龙作品【英明神武】和田玉挂件10211g\TB2Q4rXsiC9MuFjSZFoXXbUzFXa_!!0-paimai.jpg exist already
+ 2017-07-09 16:52:56,889 - http://paimai.jd.com/102931613, current thread:167
+ 2017-07-09 16:52:56,950 - http://paimai.jd.com/103074022, current thread:26
+ 2017-07-09 16:52:57,125 - http://paimai.jd.com/102643342, current thread:132
+ 2017-07-09 16:52:57,349 - http://paimai.jd.com/103212054, current thread:29
+ 2017-07-09 16:52:57,357 - http://paimai.jd.com/103199668, current thread:203
+ 2017-07-09 16:52:57,616 - http://paimai.jd.com/103199714, current thread:57
+ 2017-07-09 16:52:57,741 - http://paimai.jd.com/103199037, current thread:142
+ 2017-07-09 16:52:57,837 - http://paimai.jd.com/103212172, current thread:19
+ 2017-07-09 16:52:57,904 - http://paimai.jd.com/103212138, current thread:41
+ 2017-07-09 16:52:57,970 - http://paimai.jd.com/103212126, current thread:189
+ 2017-07-09 16:52:57,994 - http://paimai.jd.com/103185594, current thread:107
+ 2017-07-09 16:52:58,044 - http://paimai.jd.com/103212366, current thread:200
+ 2017-07-09 16:52:58,301 - http://paimai.jd.com/103227078, current thread:71
+ 2017-07-09 16:52:58,317 - http://paimai.jd.com/103227173, current thread:121
+ 2017-07-09 16:52:58,748 - http://paimai.jd.com/103249959, current thread:68
+ 2017-07-09 16:52:58,907 - http://paimai.jd.com/103213867, current thread:83
+ 2017-07-09 16:52:59,026 - http://paimai.jd.com/103213773, current thread:58
+ 2017-07-09 16:52:59,038 - http://paimai.jd.com/103213831, current thread:54
+ 2017-07-09 16:52:59,183 - http://paimai.jd.com/103212728, current thread:166
+ 2017-07-09 16:52:59,189 - http://paimai.jd.com/103213025, current thread:168
+ 2017-07-09 16:52:59,335 - http://paimai.jd.com/103212333, current thread:62
+ 2017-07-09 16:52:59,405 - http://paimai.jd.com/103212368, current thread:101
+ 2017-07-09 16:52:59,911 - http://paimai.jd.com/103199564, current thread:160
+ 2017-07-09 16:52:59,911 - http://paimai.jd.com/103185716, current thread:53
+ 2017-07-09 16:52:59,911 - http://paimai.jd.com/103185876, current thread:60
+ 2017-07-09 16:52:59,912 - http://paimai.jd.com/103185058, current thread:186
+ 2017-07-09 16:52:59,912 - http://paimai.jd.com/102999699, current thread:56
+ 2017-07-09 16:52:59,914 - http://paimai.jd.com/103160880, current thread:114
+ 2017-07-09 16:52:59,917 - http://paimai.jd.com/103212744, current thread:59
+ 2017-07-09 16:52:59,919 - D:\图集\和田玉图集\收藏保值无底价捡漏和田玉专场\【带翠关公】义薄云天和田玉羊脂白玉忠义关公玉牌69克\TB2CGUCxrBnpuFjSZFGXXX51pXa_!!2418179653.jpg exist already
+ 2017-07-09 16:53:00,082 - http://paimai.jd.com/102999773, current thread:45
+ 2017-07-09 16:53:00,723 - http://paimai.jd.com/103250027, current thread:31
+ 2017-07-09 16:53:00,988 - http://paimai.jd.com/103061106, current thread:64
+ 2017-07-09 16:53:01,049 - http://paimai.jd.com/103212381, current thread:49
+ 2017-07-09 16:53:01,524 - http://paimai.jd.com/103212393, current thread:215
+ 2017-07-09 16:53:01,541 - http://paimai.jd.com/103199588, current thread:33
+ 2017-07-09 16:53:01,573 - http://paimai.jd.com/103212768, current thread:100
+ 2017-07-09 16:53:01,593 - http://paimai.jd.com/103213010, current thread:180
+ 2017-07-09 16:53:01,987 - http://paimai.jd.com/103212583, current thread:130
+ 2017-07-09 16:53:02,018 - http://paimai.jd.com/103185217, current thread:63
+ 2017-07-09 16:53:02,022 - http://paimai.jd.com/103074279, current thread:18
+ 2017-07-09 16:53:02,309 - http://paimai.jd.com/103172060, current thread:212
+ 2017-07-09 16:53:02,358 - http://paimai.jd.com/103016774, current thread:81
+ 2017-07-09 16:53:02,388 - http://paimai.jd.com/103249962, current thread:139
+ 2017-07-09 16:53:02,593 - http://paimai.jd.com/103213815, current thread:122
+ 2017-07-09 16:53:02,599 - http://paimai.jd.com/103213048, current thread:78
+ 2017-07-09 16:53:02,906 - http://paimai.jd.com/103213819, current thread:148
+ 2017-07-09 16:53:03,002 - http://paimai.jd.com/103213822, current thread:190
+ 2017-07-09 16:53:03,144 - http://paimai.jd.com/103213834, current thread:133
+ 2017-07-09 16:53:03,146 - http://paimai.jd.com/103213839, current thread:50
+ 2017-07-09 16:53:03,187 - http://paimai.jd.com/103250003, current thread:171
+ 2017-07-09 16:53:03,206 - http://paimai.jd.com/103212351, current thread:163
+ 2017-07-09 16:53:03,367 - http://paimai.jd.com/103250353, current thread:73
+ 2017-07-09 16:53:03,465 - http://paimai.jd.com/103212664, current thread:24
+ 2017-07-09 16:53:03,688 - http://paimai.jd.com/103016860, current thread:108
+ 2017-07-09 16:53:03,981 - http://paimai.jd.com/103213869, current thread:162
+ 2017-07-09 16:53:04,126 - http://paimai.jd.com/103249990, current thread:158
+ 2017-07-09 16:53:04,466 - http://paimai.jd.com/103213824, current thread:119
+ 2017-07-09 16:53:04,583 - http://paimai.jd.com/102999760, current thread:203
+ 2017-07-09 16:53:04,634 - http://paimai.jd.com/103249986, current thread:70
+ 2017-07-09 16:53:04,676 - http://paimai.jd.com/103249982, current thread:57
+ 2017-07-09 16:53:04,680 - http://paimai.jd.com/103073968, current thread:187
+ 2017-07-09 16:53:05,050 - http://paimai.jd.com/103249974, current thread:179
+ 2017-07-09 16:53:05,131 - http://paimai.jd.com/103213844, current thread:129
+ 2017-07-09 16:53:05,162 - http://paimai.jd.com/103213811, current thread:82
+ 2017-07-09 16:53:05,521 - http://paimai.jd.com/103212701, current thread:69
+ 2017-07-09 16:53:05,793 - http://paimai.jd.com/103185753, current thread:81
+ 2017-07-09 16:53:06,158 - http://paimai.jd.com/103212494, current thread:125
+ 2017-07-09 16:53:06,544 - http://paimai.jd.com/103185175, current thread:64
+ 2017-07-09 16:53:06,688 - http://paimai.jd.com/103017156, current thread:144
+ 2017-07-09 16:53:06,835 - http://paimai.jd.com/102999421, current thread:165
+ 2017-07-09 16:53:06,935 - http://paimai.jd.com/103074163, current thread:135
+ 2017-07-09 16:53:07,200 - http://paimai.jd.com/103061118, current thread:111
+ 2017-07-09 16:53:07,231 - http://paimai.jd.com/103114195, current thread:147
+ 2017-07-09 16:53:07,234 - http://paimai.jd.com/103114583, current thread:16
+ 2017-07-09 16:53:07,426 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:53:07,542 - http://paimai.jd.com/103115258, current thread:98
+ 2017-07-09 16:53:07,595 - http://paimai.jd.com/103114122, current thread:213
+ 2017-07-09 16:53:08,384 - http://paimai.jd.com/103118951, current thread:47
+ 2017-07-09 16:53:08,556 - http://paimai.jd.com/103114088, current thread:100
+ 2017-07-09 16:53:08,602 - http://paimai.jd.com/103121194, current thread:154
+ 2017-07-09 16:53:08,675 - http://paimai.jd.com/103118840, current thread:206
+ 2017-07-09 16:53:08,780 - http://paimai.jd.com/103118518, current thread:21
+ 2017-07-09 16:53:08,882 - http://paimai.jd.com/103121230, current thread:204
+ 2017-07-09 16:53:08,967 - http://paimai.jd.com/103138556, current thread:20
+ 2017-07-09 16:53:09,107 - http://paimai.jd.com/103118468, current thread:153
+ 2017-07-09 16:53:09,240 - http://paimai.jd.com/103118925, current thread:185
+ 2017-07-09 16:53:09,255 - http://paimai.jd.com/103118787, current thread:176
+ 2017-07-09 16:53:09,558 - http://paimai.jd.com/103118493, current thread:136
+ 2017-07-09 16:53:09,904 - http://paimai.jd.com/103113748, current thread:113
+ 2017-07-09 16:53:10,161 - http://paimai.jd.com/103121245, current thread:109
+ 2017-07-09 16:53:10,509 - http://paimai.jd.com/103118817, current thread:32
+ 2017-07-09 16:53:10,547 - http://paimai.jd.com/103118320, current thread:116
+ 2017-07-09 16:53:10,726 - http://paimai.jd.com/103118900, current thread:196
+ 2017-07-09 16:53:10,795 - http://paimai.jd.com/103120323, current thread:52
+ 2017-07-09 16:53:10,869 - http://paimai.jd.com/103118238, current thread:90
+ 2017-07-09 16:53:11,155 - http://paimai.jd.com/103119317, current thread:157
+ 2017-07-09 16:53:11,175 - http://paimai.jd.com/103113809, current thread:72
+ 2017-07-09 16:53:11,318 - http://paimai.jd.com/103113977, current thread:140
+ 2017-07-09 16:53:11,357 - http://paimai.jd.com/103118561, current thread:174
+ 2017-07-09 16:53:11,531 - http://paimai.jd.com/103114153, current thread:104
+ 2017-07-09 16:53:12,194 - http://paimai.jd.com/103117972, current thread:150
+ 2017-07-09 16:53:12,305 - http://paimai.jd.com/103113886, current thread:172
+ 2017-07-09 16:53:12,332 - http://paimai.jd.com/103118170, current thread:81
+ 2017-07-09 16:53:12,356 - http://paimai.jd.com/103138618, current thread:181
+ 2017-07-09 16:53:12,470 - http://paimai.jd.com/103120237, current thread:66
+ 2017-07-09 16:53:12,794 - http://paimai.jd.com/103120395, current thread:202
+ 2017-07-09 16:53:12,812 - http://paimai.jd.com/103118711, current thread:177
+ 2017-07-09 16:53:12,888 - http://paimai.jd.com/103118869, current thread:112
+ 2017-07-09 16:53:13,010 - http://paimai.jd.com/103114809, current thread:37
+ 2017-07-09 16:53:13,468 - https://img.alicdn.com/imgextra/i1/2459345893/TB2sAcYtpXXXXX1XXXXXXXXXXXX_!!0-paimai.jpg not exist
+ 2017-07-09 16:53:13,468 - http://paimai.jd.com/103113895, current thread:35
+ 2017-07-09 16:53:13,543 - http://paimai.jd.com/103121259, current thread:146
+ 2017-07-09 16:53:13,583 - http://paimai.jd.com/103120525, current thread:88
+ 2017-07-09 16:53:13,587 - http://paimai.jd.com/103120592, current thread:211
+ 2017-07-09 16:53:13,917 - http://paimai.jd.com/103114048, current thread:42
+ 2017-07-09 16:53:13,988 - https://img.alicdn.com/imgextra/i1/2459345893/TB2sAcYtpXXXXX1XXXXXXXXXXXX_!!0-paimai.jpg not exist
+ 2017-07-09 16:53:14,105 - https://img.alicdn.com/imgextra/i3/2459345893/TB2mLZGtpXXXXbDXXXXXXXXXXXX_!!0-paimai.jpg not exist
+ 2017-07-09 16:53:14,106 - http://paimai.jd.com/103113819, current thread:195
+ 2017-07-09 16:53:14,487 - http://paimai.jd.com/103134623, current thread:161
+ 2017-07-09 16:53:14,516 - http://paimai.jd.com/103114037, current thread:99
+ 2017-07-09 16:53:15,314 - http://paimai.jd.com/103118063, current thread:106
+ 2017-07-09 16:53:15,322 - http://paimai.jd.com/103117673, current thread:105
+ 2017-07-09 16:53:15,413 - http://paimai.jd.com/103118370, current thread:97
+ 2017-07-09 16:53:16,214 - http://paimai.jd.com/103118101, current thread:138
+ 2017-07-09 16:53:16,473 - http://paimai.jd.com/103118433, current thread:199
+ 2017-07-09 16:53:16,495 - http://paimai.jd.com/103113722, current thread:103
+ 2017-07-09 16:53:17,221 - http://paimai.jd.com/103118627, current thread:126
+ 2017-07-09 16:53:17,420 - http://paimai.jd.com/103115386, current thread:107
+ 2017-07-09 16:53:17,427 - http://paimai.jd.com/103113792, current thread:48
+ 2017-07-09 16:53:17,683 - http://paimai.jd.com/103121079, current thread:92
+ 2017-07-09 16:53:17,738 - http://paimai.jd.com/103114165, current thread:152
+ 2017-07-09 16:53:18,086 - http://paimai.jd.com/103118736, current thread:210
+ 2017-07-09 16:53:18,349 - http://paimai.jd.com/103118394, current thread:94
+ 2017-07-09 16:53:18,478 - http://paimai.jd.com/103118022, current thread:96
+ 2017-07-09 16:53:19,051 - http://paimai.jd.com/103113762, current thread:184
+ 2017-07-09 16:53:19,076 - http://paimai.jd.com/103115325, current thread:191
+ 2017-07-09 16:53:19,126 - http://paimai.jd.com/103114367, current thread:80
+ 2017-07-09 16:53:19,593 - http://paimai.jd.com/103113997, current thread:61
+ 2017-07-09 16:53:19,614 - http://paimai.jd.com/103117860, current thread:175
+ 2017-07-09 16:53:19,674 - http://paimai.jd.com/103113910, current thread:84
+ 2017-07-09 16:53:21,117 - http://paimai.jd.com/103113932, current thread:149
+ 2017-07-09 16:53:21,550 - http://paimai.jd.com/103121213, current thread:193
+ 2017-07-09 16:53:21,580 - http://paimai.jd.com/103113962, current thread:121
+ 2017-07-09 16:53:21,798 - http://paimai.jd.com/103114056, current thread:51
+ 2017-07-09 16:53:21,875 - http://paimai.jd.com/103119030, current thread:205
+ 2017-07-09 16:53:22,128 - http://paimai.jd.com/103118685, current thread:169
+ 2017-07-09 16:53:22,129 - http://paimai.jd.com/103118284, current thread:115
+ 2017-07-09 16:53:22,180 - http://paimai.jd.com/103134653, current thread:143
+ 2017-07-09 16:53:23,319 - http://paimai.jd.com/103119134, current thread:28
+ 2017-07-09 16:53:23,355 - http://paimai.jd.com/103114721, current thread:79
+ 2017-07-09 16:53:23,565 - http://paimai.jd.com/103114183, current thread:22
+ 2017-07-09 16:53:23,634 - http://paimai.jd.com/103114173, current thread:145
+ 2017-07-09 16:53:23,804 - http://paimai.jd.com/103113734, current thread:123
+ 2017-07-09 16:53:24,303 - http://paimai.jd.com/103118659, current thread:135
+ 2017-07-09 16:53:24,585 - http://paimai.jd.com/103118122, current thread:89
+ 2017-07-09 16:53:24,851 - http://paimai.jd.com/103119232, current thread:194
+ 2017-07-09 16:53:24,934 - http://paimai.jd.com/103115375, current thread:110
+ 2017-07-09 16:53:25,274 - http://paimai.jd.com/103117704, current thread:151
+ 2017-07-09 16:53:25,330 - http://paimai.jd.com/103114099, current thread:93
+ 2017-07-09 16:53:25,911 - http://paimai.jd.com/103113847, current thread:30
+ 2017-07-09 16:53:25,995 - http://paimai.jd.com/103118540, current thread:208
+ 2017-07-09 16:53:26,594 - http://paimai.jd.com/103114944, current thread:188
+ 2017-07-09 16:53:26,640 - http://paimai.jd.com/103114137, current thread:85
+ 2017-07-09 16:53:26,645 - http://paimai.jd.com/103114072, current thread:70
+ 2017-07-09 16:53:26,976 - http://paimai.jd.com/103114013, current thread:67
+ 2017-07-09 16:53:27,211 - http://paimai.jd.com/103119003, current thread:183
+ 2017-07-09 16:53:27,223 - http://paimai.jd.com/103118598, current thread:75
+ 2017-07-09 16:53:27,426 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:53:28,529 - http://paimai.jd.com/103114027, current thread:137
+ 2017-07-09 16:53:29,259 - http://paimai.jd.com/103117810, current thread:65
+ 2017-07-09 16:53:29,264 - http://paimai.jd.com/103119068, current thread:131
+ 2017-07-09 16:53:29,269 - http://paimai.jd.com/103115193, current thread:63
+ 2017-07-09 16:53:29,271 - http://paimai.jd.com/103113948, current thread:170
+ 2017-07-09 16:53:29,339 - http://paimai.jd.com/103113875, current thread:171
+ 2017-07-09 16:53:29,789 - http://paimai.jd.com/103113864, current thread:25
+ 2017-07-09 16:53:30,887 - http://paimai.jd.com/103117903, current thread:43
+ 2017-07-09 16:53:31,313 - http://paimai.jd.com/103120466, current thread:127
+ 2017-07-09 16:53:31,571 - http://paimai.jd.com/103051698, current thread:214
+ 2017-07-09 16:53:31,801 - http://paimai.jd.com/102778267, current thread:164
+ 2017-07-09 16:53:32,447 - http://paimai.jd.com/102876553, current thread:141
+ 2017-07-09 16:53:34,134 - http://paimai.jd.com/102458005, current thread:26
+ 2017-07-09 16:53:34,366 - http://paimai.jd.com/102306341, current thread:118
+ 2017-07-09 16:53:34,623 - http://paimai.jd.com/102565681, current thread:134
+ 2017-07-09 16:53:35,025 - http://paimai.jd.com/103206109, current thread:23
+ 2017-07-09 16:53:35,037 - http://paimai.jd.com/103206056, current thread:27
+ 2017-07-09 16:53:35,095 - http://paimai.jd.com/102410976, current thread:34
+ 2017-07-09 16:53:35,233 - http://paimai.jd.com/103206024, current thread:46
+ 2017-07-09 16:53:35,456 - http://paimai.jd.com/102880249, current thread:35
+ 2017-07-09 16:53:35,712 - http://paimai.jd.com/103206766, current thread:31
+ 2017-07-09 16:53:35,771 - http://paimai.jd.com/103206099, current thread:178
+ 2017-07-09 16:53:35,936 - http://paimai.jd.com/103206014, current thread:91
+ 2017-07-09 16:53:36,432 - http://paimai.jd.com/102762447, current thread:167
+ 2017-07-09 16:53:36,442 - http://paimai.jd.com/102435459, current thread:72
+ 2017-07-09 16:53:36,445 - http://paimai.jd.com/103206795, current thread:55
+ 2017-07-09 16:53:37,071 - http://paimai.jd.com/103166181, current thread:86
+ 2017-07-09 16:53:37,262 - http://paimai.jd.com/103206084, current thread:44
+ 2017-07-09 16:53:37,947 - http://paimai.jd.com/103209596, current thread:133
+ 2017-07-09 16:53:38,250 - http://paimai.jd.com/102790901, current thread:59
+ 2017-07-09 16:53:39,183 - http://paimai.jd.com/102778772, current thread:182
+ 2017-07-09 16:53:39,192 - http://paimai.jd.com/102771587, current thread:209
+ 2017-07-09 16:53:40,543 - http://paimai.jd.com/103209582, current thread:98
+ 2017-07-09 16:53:41,313 - http://paimai.jd.com/103206094, current thread:158
+ 2017-07-09 16:53:42,192 - http://paimai.jd.com/103205842, current thread:55
+ 2017-07-09 16:53:42,557 - D:\图集\和田玉图集\惜宝玉美玉捡漏和田玉专场\和田玉十八罗汉手串项链16636克惜宝玉玉器\58f35267Nc5a817d9.jpg exist already
+ 2017-07-09 16:53:43,743 - http://paimai.jd.com/103030012, current thread:175
+ 2017-07-09 16:53:43,773 - http://paimai.jd.com/102410900, current thread:103
+ 2017-07-09 16:53:44,302 - http://paimai.jd.com/102187044, current thread:106
+ 2017-07-09 16:53:44,302 - http://paimai.jd.com/103206059, current thread:57
+ 2017-07-09 16:53:44,561 - http://paimai.jd.com/103166169, current thread:17
+ 2017-07-09 16:53:46,061 - http://paimai.jd.com/102747712, current thread:214
+ 2017-07-09 16:53:46,692 - http://paimai.jd.com/102746898, current thread:180
+ 2017-07-09 16:53:47,027 - http://paimai.jd.com/102564732, current thread:39
+ 2017-07-09 16:53:47,426 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:53:47,593 - http://paimai.jd.com/102306132, current thread:50
+ 2017-07-09 16:53:47,700 - http://paimai.jd.com/103209562, current thread:179
+ 2017-07-09 16:53:47,748 - http://paimai.jd.com/103206692, current thread:26
+ 2017-07-09 16:53:47,798 - http://paimai.jd.com/103206074, current thread:216
+ 2017-07-09 16:53:49,948 - http://paimai.jd.com/103206060, current thread:197
+ 2017-07-09 16:53:50,692 - http://paimai.jd.com/103188335, current thread:103
+ 2017-07-09 16:53:51,155 - http://paimai.jd.com/102747796, current thread:116
+ 2017-07-09 16:53:51,317 - http://paimai.jd.com/102565514, current thread:212
+ 2017-07-09 16:53:51,423 - http://paimai.jd.com/102564717, current thread:192
+ 2017-07-09 16:53:51,599 - http://paimai.jd.com/102545935, current thread:178
+ 2017-07-09 16:53:51,842 - http://paimai.jd.com/102410394, current thread:198
+ 2017-07-09 16:53:52,542 - http://paimai.jd.com/102410335, current thread:91
+ 2017-07-09 16:53:52,543 - http://paimai.jd.com/103206101, current thread:113
+ 2017-07-09 16:53:52,543 - http://paimai.jd.com/103206096, current thread:31
+ 2017-07-09 16:53:52,557 - http://paimai.jd.com/103206021, current thread:117
+ 2017-07-09 16:53:53,213 - http://paimai.jd.com/103205998, current thread:23
+ 2017-07-09 16:53:53,214 - http://paimai.jd.com/103061927, current thread:153
+ 2017-07-09 16:53:54,006 - http://paimai.jd.com/102778539, current thread:40
+ 2017-07-09 16:53:54,324 - http://paimai.jd.com/102762342, current thread:173
+ 2017-07-09 16:53:54,575 - http://paimai.jd.com/102762329, current thread:167
+ 2017-07-09 16:53:54,597 - http://paimai.jd.com/102747767, current thread:21
+ 2017-07-09 16:53:54,620 - http://paimai.jd.com/102565745, current thread:111
+ 2017-07-09 16:53:54,834 - http://paimai.jd.com/102565683, current thread:161
+ 2017-07-09 16:53:55,090 - http://paimai.jd.com/102545869, current thread:59
+ 2017-07-09 16:53:55,355 - http://paimai.jd.com/103206090, current thread:123
+ 2017-07-09 16:53:55,419 - http://paimai.jd.com/103206082, current thread:46
+ 2017-07-09 16:53:55,566 - http://paimai.jd.com/103206071, current thread:138
+ 2017-07-09 16:53:56,419 - http://paimai.jd.com/103206045, current thread:82
+ 2017-07-09 16:53:56,538 - http://paimai.jd.com/103206001, current thread:86
+ 2017-07-09 16:53:56,603 - http://paimai.jd.com/103166221, current thread:101
+ 2017-07-09 16:53:56,873 - http://paimai.jd.com/103089948, current thread:168
+ 2017-07-09 16:53:57,518 - http://paimai.jd.com/102803538, current thread:44
+ 2017-07-09 16:53:57,724 - http://paimai.jd.com/102783650, current thread:133
+ 2017-07-09 16:53:58,072 - http://paimai.jd.com/102565686, current thread:94
+ 2017-07-09 16:53:58,073 - http://paimai.jd.com/102565660, current thread:78
+ 2017-07-09 16:53:58,073 - http://paimai.jd.com/102546113, current thread:20
+ 2017-07-09 16:53:58,075 - http://paimai.jd.com/102411026, current thread:134
+ 2017-07-09 16:53:58,331 - http://paimai.jd.com/102410718, current thread:89
+ 2017-07-09 16:53:58,601 - http://paimai.jd.com/102404902, current thread:54
+ 2017-07-09 16:53:58,677 - http://paimai.jd.com/103208481, current thread:17
+ 2017-07-09 16:53:58,845 - D:\图集\和田玉图集\惜宝玉美玉捡漏和田玉专场\和田玉白玉吉祥祝福生肖猪挂件40997克惜宝玉玉器\58f34bd8N2ac059fa.jpg exist already
+ 2017-07-09 16:53:58,949 - http://paimai.jd.com/103206105, current thread:162
+ 2017-07-09 16:53:58,973 - http://paimai.jd.com/103206079, current thread:72
+ 2017-07-09 16:53:58,986 - http://paimai.jd.com/103206072, current thread:58
+ 2017-07-09 16:53:59,262 - http://paimai.jd.com/103205972, current thread:191
+ 2017-07-09 16:53:59,269 - http://paimai.jd.com/103051584, current thread:203
+ 2017-07-09 16:53:59,508 - http://paimai.jd.com/103044893, current thread:29
+ 2017-07-09 16:53:59,669 - http://paimai.jd.com/103030105, current thread:136
+ 2017-07-09 16:53:59,873 - http://paimai.jd.com/102783604, current thread:98
+ 2017-07-09 16:53:59,893 - http://paimai.jd.com/102778685, current thread:81
+ 2017-07-09 16:54:00,005 - http://paimai.jd.com/102778314, current thread:190
+ 2017-07-09 16:54:00,058 - http://paimai.jd.com/102747964, current thread:173
+ 2017-07-09 16:54:00,143 - http://paimai.jd.com/102747746, current thread:132
+ 2017-07-09 16:54:00,337 - http://paimai.jd.com/102564658, current thread:175
+ 2017-07-09 16:54:00,345 - http://paimai.jd.com/102511284, current thread:106
+ 2017-07-09 16:54:00,809 - http://paimai.jd.com/102355737, current thread:159
+ 2017-07-09 16:54:01,102 - http://paimai.jd.com/102308454, current thread:163
+ 2017-07-09 16:54:01,842 - http://paimai.jd.com/101969952, current thread:128
+ 2017-07-09 16:54:01,893 - http://paimai.jd.com/101459276, current thread:148
+ 2017-07-09 16:54:01,959 - http://paimai.jd.com/103206103, current thread:73
+ 2017-07-09 16:54:01,966 - http://paimai.jd.com/103206070, current thread:178
+ 2017-07-09 16:54:02,107 - http://paimai.jd.com/103206067, current thread:27
+ 2017-07-09 16:54:02,368 - http://paimai.jd.com/103206008, current thread:129
+ 2017-07-09 16:54:02,999 - http://paimai.jd.com/103044966, current thread:90
+ 2017-07-09 16:54:03,186 - http://paimai.jd.com/102355664, current thread:46
+ 2017-07-09 16:54:03,200 - http://paimai.jd.com/103206100, current thread:216
+ 2017-07-09 16:54:03,361 - http://paimai.jd.com/103206092, current thread:142
+ 2017-07-09 16:54:03,435 - http://paimai.jd.com/103249230, current thread:199
+ 2017-07-09 16:54:03,473 - D:\图集\和田玉图集\惜宝玉美玉捡漏和田玉专场\和田玉旺财手把件280克惜宝玉玉器\57e3653eNa41ecd00.jpg exist already
+ 2017-07-09 16:54:03,552 - http://paimai.jd.com/103258318, current thread:179
+ 2017-07-09 16:54:03,586 - http://paimai.jd.com/103249441, current thread:48
+ 2017-07-09 16:54:03,671 - http://paimai.jd.com/103257258, current thread:180
+ 2017-07-09 16:54:03,677 - http://paimai.jd.com/103249259, current thread:181
+ 2017-07-09 16:54:03,740 - http://paimai.jd.com/103257321, current thread:214
+ 2017-07-09 16:54:03,898 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉羊脂玉圆珠项链68克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:04,106 - http://paimai.jd.com/103249420, current thread:182
+ 2017-07-09 16:54:04,216 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\苏州玉雕大师任永辉作品新疆和田玉籽料白玉知足挂件23克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:04,402 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\苏州玉雕大师汪恒作品新疆和田玉籽料羊脂玉高白特细瑞兽挂件31克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:04,440 - http://paimai.jd.com/103257351, current thread:198
+ 2017-07-09 16:54:04,656 - http://paimai.jd.com/103254411, current thread:83
+ 2017-07-09 16:54:04,848 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁籽料原石挂件54克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:04,894 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉黄沁皮籽料一夜封侯挂件45克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:05,088 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\省级玉雕大师胡锡涛作品和田玉籽料双龙戏珠手镯内径56mm76克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:05,263 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉羊脂玉籽料油润性佳蝶恋花挂件16克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:05,554 - http://paimai.jd.com/103257199, current thread:192
+ 2017-07-09 16:54:05,663 - http://paimai.jd.com/103249315, current thread:184
+ 2017-07-09 16:54:06,179 - http://paimai.jd.com/103249453, current thread:23
+ 2017-07-09 16:54:06,180 - http://paimai.jd.com/103249432, current thread:53
+ 2017-07-09 16:54:06,243 - http://paimai.jd.com/103249365, current thread:58
+ 2017-07-09 16:54:06,264 - http://paimai.jd.com/103249243, current thread:103
+ 2017-07-09 16:54:06,287 - http://paimai.jd.com/103206464, current thread:96
+ 2017-07-09 16:54:06,624 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\苏州玉雕大师任永辉作品新疆和田玉独籽羊脂玉秋蝉挂件10克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:06,754 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\省级玉雕大师万子涵作品和田玉籽料蝶恋花手镯内径：57mm#79克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:06,836 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉带有原皮观音挂件154克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:06,921 - http://paimai.jd.com/103257366, current thread:16
+ 2017-07-09 16:54:07,214 - http://paimai.jd.com/103257296, current thread:31
+ 2017-07-09 16:54:07,237 - http://paimai.jd.com/103249468, current thread:174
+ 2017-07-09 16:54:07,243 - http://paimai.jd.com/103177747, current thread:97
+ 2017-07-09 16:54:07,259 - http://paimai.jd.com/103249328, current thread:209
+ 2017-07-09 16:54:07,285 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉鎏金碧玉金玉满堂手镯内径：58mm#64克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:07,323 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\新疆和田玉白玉籽料鸳鸯挂件22克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:07,400 - http://paimai.jd.com/103177726, current thread:89
+ 2017-07-09 16:54:07,427 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:54:07,455 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉原石新疆独籽摆件236克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:07,490 - http://paimai.jd.com/103177666, current thread:204
+ 2017-07-09 16:54:07,546 - http://paimai.jd.com/103175792, current thread:78
+ 2017-07-09 16:54:07,578 - http://paimai.jd.com/103257214, current thread:84
+ 2017-07-09 16:54:07,959 - http://paimai.jd.com/103249425, current thread:55
+ 2017-07-09 16:54:08,003 - http://paimai.jd.com/103249390, current thread:167
+ 2017-07-09 16:54:08,203 - http://paimai.jd.com/103249296, current thread:138
+ 2017-07-09 16:54:08,319 - http://paimai.jd.com/103249236, current thread:197
+ 2017-07-09 16:54:08,521 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉羊脂玉带有黄皮观音挂件43克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:08,599 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\苏州玉雕大师汪恒作品新疆和田玉籽料羊脂玉年年有余挂件12克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:08,601 - http://paimai.jd.com/103177748, current thread:175
+ 2017-07-09 16:54:08,682 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉羊脂白玉手镯58mm#88克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:08,687 - http://paimai.jd.com/103177745, current thread:212
+ 2017-07-09 16:54:08,718 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉精品苏工仿古挂件23克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:08,851 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉高白特细籽料原石挂件39克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:08,854 - http://paimai.jd.com/103177636, current thread:117
+ 2017-07-09 16:54:08,865 - http://paimai.jd.com/103175798, current thread:59
+ 2017-07-09 16:54:08,905 - http://paimai.jd.com/103257336, current thread:119
+ 2017-07-09 16:54:09,009 - http://paimai.jd.com/103249412, current thread:67
+ 2017-07-09 16:54:09,038 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\苏州省级玉雕大师万子涵作品和田玉黄皮籽料悟道挂件52克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:09,210 - http://paimai.jd.com/103249382, current thread:76
+ 2017-07-09 16:54:09,273 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄皮籽料原石挂件44克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:09,278 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件21克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:09,327 - http://paimai.jd.com/103249321, current thread:161
+ 2017-07-09 16:54:09,402 - http://paimai.jd.com/103206490, current thread:43
+ 2017-07-09 16:54:09,505 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉羊脂玉108颗圆珠手链59克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:09,569 - http://paimai.jd.com/103177734, current thread:155
+ 2017-07-09 16:54:09,758 - http://paimai.jd.com/103177713, current thread:118
+ 2017-07-09 16:54:09,776 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉三色籽料达摩貔貅挂件74克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:09,847 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉青花籽料原石把件125克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:09,864 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉好事成双挂件21克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:09,868 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉羊脂玉原石项链66克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:09,905 - http://paimai.jd.com/103177521, current thread:68
+ 2017-07-09 16:54:09,908 - http://paimai.jd.com/103175835, current thread:57
+ 2017-07-09 16:54:09,923 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉素雅手镯内径：58mm#77克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:09,963 - http://paimai.jd.com/103249475, current thread:172
+ 2017-07-09 16:54:10,079 - http://paimai.jd.com/103249341, current thread:153
+ 2017-07-09 16:54:10,159 - http://paimai.jd.com/103206394, current thread:203
+ 2017-07-09 16:54:10,199 - http://paimai.jd.com/103177740, current thread:216
+ 2017-07-09 16:54:10,250 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉平安无事牌挂件56克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:10,293 - http://paimai.jd.com/103177718, current thread:162
+ 2017-07-09 16:54:10,346 - http://paimai.jd.com/103177670, current thread:26
+ 2017-07-09 16:54:10,450 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉双面工仿古龙挂件26克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:10,617 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉精雕细琢观音挂件135克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:10,664 - http://paimai.jd.com/103177640, current thread:39
+ 2017-07-09 16:54:10,684 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\苏州省级玉雕大师万子涵作品和田玉白玉籽料蝶恋花手镯内径：54mm80克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:10,725 - http://paimai.jd.com/103177546, current thread:94
+ 2017-07-09 16:54:10,729 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\新疆玉龙喀什河籽料和田玉原石把件176克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:10,765 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉带有原皮仿古龙挂件32克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:10,878 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉籽料双喜临门挂件17克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:10,915 - http://paimai.jd.com/103177464, current thread:92
+ 2017-07-09 16:54:10,952 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉原皮籽料原石摆件315克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:11,019 - http://paimai.jd.com/103175820, current thread:44
+ 2017-07-09 16:54:11,056 - http://paimai.jd.com/103175786, current thread:122
+ 2017-07-09 16:54:11,091 - http://paimai.jd.com/103249374, current thread:91
+ 2017-07-09 16:54:11,147 - http://paimai.jd.com/103249359, current thread:111
+ 2017-07-09 16:54:11,304 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉羊脂白玉玉质温润手镯内径：55mm78克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:11,517 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉羊脂白玉圆珠项链67克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:11,876 - http://paimai.jd.com/103249267, current thread:98
+ 2017-07-09 16:54:11,906 - http://paimai.jd.com/103249237, current thread:82
+ 2017-07-09 16:54:11,907 - http://paimai.jd.com/103206481, current thread:54
+ 2017-07-09 16:54:11,909 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\新疆和田玉白玉黄皮籽料瑞兽摆件439克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:11,925 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉羊脂玉圆珠项链67克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:11,939 - http://paimai.jd.com/103206350, current thread:113
+ 2017-07-09 16:54:11,946 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉雕工精美一品清廉挂件174克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:11,947 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉羊脂玉圆珠108颗手链58克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:12,063 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉糖白玉一品清廉挂件27克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:12,084 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件18克海纲成文\58f09000N5d555594.jpg exist already
+ 2017-07-09 16:54:12,173 - http://paimai.jd.com/103177751, current thread:190
+ 2017-07-09 16:54:12,198 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉佛手挂件10克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:12,245 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件18克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:12,261 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件18克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:12,280 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉籽料原石把件152克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:12,285 - http://paimai.jd.com/103177742, current thread:134
+ 2017-07-09 16:54:12,334 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件18克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:12,781 - http://paimai.jd.com/103177724, current thread:18
+ 2017-07-09 16:54:12,781 - http://paimai.jd.com/103177709, current thread:27
+ 2017-07-09 16:54:12,783 - http://paimai.jd.com/103177705, current thread:140
+ 2017-07-09 16:54:12,797 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉糖白玉滴水福牌挂件28克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:13,013 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉镂空工艺滴水福牌挂件37克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:13,033 - http://paimai.jd.com/103177678, current thread:169
+ 2017-07-09 16:54:13,074 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉原石项链49克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:13,094 - http://paimai.jd.com/103177655, current thread:35
+ 2017-07-09 16:54:13,253 - http://paimai.jd.com/103177621, current thread:188
+ 2017-07-09 16:54:13,282 - http://paimai.jd.com/103177613, current thread:116
+ 2017-07-09 16:54:13,347 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉忠义千秋挂件39克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:13,392 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件12克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:13,437 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄皮籽料原石把件80克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:13,505 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉一品清廉挂件12克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:13,532 - http://paimai.jd.com/103177532, current thread:106
+ 2017-07-09 16:54:13,601 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉手镯内径：56mm#58克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:13,684 - http://paimai.jd.com/103177514, current thread:73
+ 2017-07-09 16:54:14,016 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉油润细腻观音挂件131克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:14,116 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉年年有余挂件20克玉质细腻海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:14,274 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉带糖色年年有余挂件18克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:14,334 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄皮籽料原石把件84克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:14,433 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉羊脂玉滴水牌挂件49克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:14,503 - http://paimai.jd.com/103177509, current thread:206
+ 2017-07-09 16:54:14,509 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉带有原皮原石籽料挂件24克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:14,544 - http://paimai.jd.com/103177466, current thread:128
+ 2017-07-09 16:54:14,764 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉糖白玉山水牌挂件64克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:14,766 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉一品清廉挂件118克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:14,791 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉秋梨皮原石挂件46克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:14,796 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉双喜临门挂件24克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:15,058 - http://paimai.jd.com/103177452, current thread:142
+ 2017-07-09 16:54:15,249 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉镂空工艺龙马精神挂件31克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:15,371 - http://paimai.jd.com/103177449, current thread:29
+ 2017-07-09 16:54:15,419 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉手镯内径：59mm#88克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:15,481 - http://paimai.jd.com/103175849, current thread:108
+ 2017-07-09 16:54:15,563 - http://paimai.jd.com/103175830, current thread:191
+ 2017-07-09 16:54:15,680 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮原石挂件27克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:15,787 - http://paimai.jd.com/103175822, current thread:141
+ 2017-07-09 16:54:15,992 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉鎏金青玉富贵吉祥手镯内径：56mm#69克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:16,347 - http://paimai.jd.com/103249436, current thread:137
+ 2017-07-09 16:54:16,524 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉玉质细腻鸳鸯挂件36克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:16,556 - http://paimai.jd.com/103249429, current thread:171
+ 2017-07-09 16:54:16,624 - http://paimai.jd.com/103249335, current thread:75
+ 2017-07-09 16:54:16,633 - http://paimai.jd.com/103249301, current thread:101
+ 2017-07-09 16:54:17,132 - http://paimai.jd.com/103249281, current thread:213
+ 2017-07-09 16:54:17,132 - http://paimai.jd.com/103249249, current thread:178
+ 2017-07-09 16:54:17,133 - http://paimai.jd.com/103206487, current thread:21
+ 2017-07-09 16:54:17,145 - http://paimai.jd.com/103206457, current thread:24
+ 2017-07-09 16:54:17,184 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉带原皮色一念之间挂件45克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:17,250 - http://paimai.jd.com/103206371, current thread:159
+ 2017-07-09 16:54:17,575 - http://paimai.jd.com/103206361, current thread:40
+ 2017-07-09 16:54:17,636 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉青花悟道挂件43克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:17,905 - http://paimai.jd.com/103177506, current thread:46
+ 2017-07-09 16:54:18,253 - http://paimai.jd.com/103177496, current thread:170
+ 2017-07-09 16:54:18,580 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉玉质油润观音挂件132克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:18,609 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉玉兔挂件21克玉质细腻海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:18,743 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉秋梨皮原石把件83克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:18,767 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉手镯内径：55mm61克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:18,796 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉手镯内径：57mm72克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:18,847 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉年年有余挂件202克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:18,858 - http://paimai.jd.com/103175811, current thread:133
+ 2017-07-09 16:54:18,900 - http://paimai.jd.com/103175801, current thread:90
+ 2017-07-09 16:54:19,131 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉镂空福牌挂件41克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:19,214 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉山水亭台挂件49克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:19,242 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉玉质细腻观音挂件15克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:19,245 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉镂空福牌挂件39克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:19,459 - http://paimai.jd.com/103175774, current thread:47
+ 2017-07-09 16:54:19,680 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉肉细油润观音挂件32克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:19,720 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉笑佛挂件44克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:19,798 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉侧脸观音挂件34克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:19,807 - http://paimai.jd.com/103249288, current thread:132
+ 2017-07-09 16:54:20,090 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄皮籽料原石挂件31克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:20,167 - http://paimai.jd.com/103206503, current thread:164
+ 2017-07-09 16:54:20,465 - http://paimai.jd.com/103206494, current thread:81
+ 2017-07-09 16:54:20,623 - http://paimai.jd.com/103206408, current thread:173
+ 2017-07-09 16:54:20,663 - http://paimai.jd.com/103206366, current thread:69
+ 2017-07-09 16:54:20,696 - http://paimai.jd.com/103249448, current thread:123
+ 2017-07-09 16:54:20,863 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉青玉三十六计印章219克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:20,890 - http://paimai.jd.com/103249309, current thread:147
+ 2017-07-09 16:54:20,902 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉原石项链49克海纲成文\58f09000N5d555594.jpg exist already
+ 2017-07-09 16:54:20,919 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉原石项链49克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:20,935 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉原石项链49克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:21,066 - http://paimai.jd.com/103249224, current thread:115
+ 2017-07-09 16:54:21,146 - http://paimai.jd.com/103239057, current thread:25
+ 2017-07-09 16:54:21,232 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉观音挂件137克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:21,381 - http://paimai.jd.com/103300330, current thread:60
+ 2017-07-09 16:54:21,504 - http://paimai.jd.com/103238759, current thread:32
+ 2017-07-09 16:54:21,539 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉黄皮籽料龙凤呈祥挂件38克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:21,551 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉玉质细腻连年有余挂件168克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:22,199 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉带有黄皮连年有余挂件135克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:22,304 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉糖白玉手镯内径：56mm49克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:22,754 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉肉细细腻持莲观音挂件33克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:22,799 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉带有黄皮连年有余挂件204克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:22,841 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉鎏金青玉花开富贵手镯内径：59mm#79克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:23,108 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉一品清廉挂件107克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:23,151 - http://paimai.jd.com/103238748, current thread:80
+ 2017-07-09 16:54:23,210 - http://paimai.jd.com/103239361, current thread:20
+ 2017-07-09 16:54:23,306 - http://paimai.jd.com/103239450, current thread:34
+ 2017-07-09 16:54:23,331 - http://paimai.jd.com/103238706, current thread:126
+ 2017-07-09 16:54:23,574 - http://paimai.jd.com/103238907, current thread:149
+ 2017-07-09 16:54:25,015 - http://paimai.jd.com/103212518, current thread:72
+ 2017-07-09 16:54:26,215 - http://paimai.jd.com/103239159, current thread:131
+ 2017-07-09 16:54:26,503 - http://paimai.jd.com/103238601, current thread:124
+ 2017-07-09 16:54:26,586 - http://paimai.jd.com/103238981, current thread:17
+ 2017-07-09 16:54:27,089 - http://paimai.jd.com/103239123, current thread:176
+ 2017-07-09 16:54:27,427 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:54:27,500 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉观音挂件52克海纲成文\58f08ffeN806304f5.jpg exist already
+ 2017-07-09 16:54:28,055 - http://paimai.jd.com/103238959, current thread:163
+ 2017-07-09 16:54:28,584 - http://paimai.jd.com/103239194, current thread:185
+ 2017-07-09 16:54:28,837 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉镂空福牌挂件41克海纲成文\5906c8edNc82ffee9.jpg exist already
+ 2017-07-09 16:54:29,104 - http://paimai.jd.com/103239066, current thread:181
+ 2017-07-09 16:54:29,138 - http://paimai.jd.com/103238989, current thread:160
+ 2017-07-09 16:54:29,211 - http://paimai.jd.com/103238967, current thread:32
+ 2017-07-09 16:54:29,324 - http://paimai.jd.com/103239331, current thread:215
+ 2017-07-09 16:54:30,135 - http://paimai.jd.com/103239019, current thread:109
+ 2017-07-09 16:54:31,131 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件18克海纲成文\5869243fN34b092ae.jpg exist already
+ 2017-07-09 16:54:31,947 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉白玉带有原皮观音挂件154克海纲成文\594363e4N47dd26e5.jpg exist already
+ 2017-07-09 16:54:32,474 - http://paimai.jd.com/103238856, current thread:36
+ 2017-07-09 16:54:32,564 - http://paimai.jd.com/103238527, current thread:149
+ 2017-07-09 16:54:32,718 - http://paimai.jd.com/103239139, current thread:121
+ 2017-07-09 16:54:32,735 - http://paimai.jd.com/103239132, current thread:80
+ 2017-07-09 16:54:32,810 - http://paimai.jd.com/103239026, current thread:130
+ 2017-07-09 16:54:32,977 - http://paimai.jd.com/103238921, current thread:212
+ 2017-07-09 16:54:37,615 - http://paimai.jd.com/103238915, current thread:50
+ 2017-07-09 16:54:37,636 - http://paimai.jd.com/103238900, current thread:207
+ 2017-07-09 16:54:37,691 - http://paimai.jd.com/103238553, current thread:136
+ 2017-07-09 16:54:37,727 - http://paimai.jd.com/103238492, current thread:199
+ 2017-07-09 16:54:37,813 - http://paimai.jd.com/103238446, current thread:19
+ 2017-07-09 16:54:38,351 - http://paimai.jd.com/103239379, current thread:110
+ 2017-07-09 16:54:39,320 - http://paimai.jd.com/103238509, current thread:171
+ 2017-07-09 16:54:39,402 - http://paimai.jd.com/103238435, current thread:185
+ 2017-07-09 16:54:39,428 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件18克海纲成文\58f09000N198b74aa.jpg exist already
+ 2017-07-09 16:54:39,492 - http://paimai.jd.com/103238687, current thread:89
+ 2017-07-09 16:54:39,545 - http://paimai.jd.com/103300307, current thread:56
+ 2017-07-09 16:54:40,056 - http://paimai.jd.com/103238785, current thread:103
+ 2017-07-09 16:54:40,392 - http://paimai.jd.com/103239008, current thread:53
+ 2017-07-09 16:54:40,828 - http://paimai.jd.com/103239190, current thread:32
+ 2017-07-09 16:54:40,861 - http://paimai.jd.com/103239441, current thread:165
+ 2017-07-09 16:54:40,950 - http://paimai.jd.com/103239366, current thread:93
+ 2017-07-09 16:54:41,200 - http://paimai.jd.com/103238590, current thread:152
+ 2017-07-09 16:54:41,309 - http://paimai.jd.com/103239359, current thread:100
+ 2017-07-09 16:54:41,427 - http://paimai.jd.com/103239211, current thread:135
+ 2017-07-09 16:54:41,525 - http://paimai.jd.com/103238883, current thread:129
+ 2017-07-09 16:54:41,951 - http://paimai.jd.com/103238805, current thread:124
+ 2017-07-09 16:54:42,378 - http://paimai.jd.com/103238792, current thread:191
+ 2017-07-09 16:54:43,026 - http://paimai.jd.com/103238769, current thread:23
+ 2017-07-09 16:54:43,271 - http://paimai.jd.com/103238646, current thread:109
+ 2017-07-09 16:54:43,307 - http://paimai.jd.com/103238561, current thread:212
+ 2017-07-09 16:54:43,463 - http://paimai.jd.com/103239343, current thread:86
+ 2017-07-09 16:54:45,379 - http://paimai.jd.com/103239337, current thread:42
+ 2017-07-09 16:54:45,380 - http://paimai.jd.com/103239038, current thread:215
+ 2017-07-09 16:54:45,384 - http://paimai.jd.com/103238877, current thread:154
+ 2017-07-09 16:54:45,390 - http://paimai.jd.com/103238739, current thread:148
+ 2017-07-09 16:54:45,395 - http://paimai.jd.com/103238482, current thread:49
+ 2017-07-09 16:54:45,553 - http://paimai.jd.com/103239219, current thread:101
+ 2017-07-09 16:54:45,630 - http://paimai.jd.com/103239154, current thread:146
+ 2017-07-09 16:54:45,782 - http://paimai.jd.com/103238952, current thread:84
+ 2017-07-09 16:54:45,866 - http://paimai.jd.com/103238813, current thread:95
+ 2017-07-09 16:54:45,877 - http://paimai.jd.com/103238520, current thread:33
+ 2017-07-09 16:54:46,136 - http://paimai.jd.com/103239445, current thread:48
+ 2017-07-09 16:54:46,185 - http://paimai.jd.com/103239428, current thread:68
+ 2017-07-09 16:54:46,206 - http://paimai.jd.com/103239406, current thread:168
+ 2017-07-09 16:54:46,226 - http://paimai.jd.com/103239401, current thread:153
+ 2017-07-09 16:54:46,657 - http://paimai.jd.com/103239392, current thread:185
+ 2017-07-09 16:54:47,002 - http://paimai.jd.com/103239388, current thread:17
+ 2017-07-09 16:54:47,263 - http://paimai.jd.com/103239373, current thread:119
+ 2017-07-09 16:54:47,264 - http://paimai.jd.com/103239351, current thread:118
+ 2017-07-09 16:54:47,269 - http://paimai.jd.com/103239334, current thread:193
+ 2017-07-09 16:54:47,379 - http://paimai.jd.com/103239326, current thread:132
+ 2017-07-09 16:54:47,427 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:54:47,435 - http://paimai.jd.com/103239185, current thread:85
+ 2017-07-09 16:54:47,613 - http://paimai.jd.com/103239116, current thread:161
+ 2017-07-09 16:54:48,158 - http://paimai.jd.com/103239049, current thread:208
+ 2017-07-09 16:54:48,336 - http://paimai.jd.com/103238893, current thread:80
+ 2017-07-09 16:54:48,375 - http://paimai.jd.com/103238871, current thread:122
+ 2017-07-09 16:54:48,398 - http://paimai.jd.com/103238865, current thread:178
+ 2017-07-09 16:54:48,624 - http://paimai.jd.com/103238836, current thread:142
+ 2017-07-09 16:54:48,663 - http://paimai.jd.com/103238822, current thread:92
+ 2017-07-09 16:54:48,793 - http://paimai.jd.com/103238776, current thread:20
+ 2017-07-09 16:54:49,247 - http://paimai.jd.com/103238733, current thread:55
+ 2017-07-09 16:54:49,291 - http://paimai.jd.com/103238726, current thread:116
+ 2017-07-09 16:54:49,344 - http://paimai.jd.com/103238669, current thread:67
+ 2017-07-09 16:54:49,457 - http://paimai.jd.com/103238657, current thread:76
+ 2017-07-09 16:54:49,495 - http://paimai.jd.com/103238573, current thread:140
+ 2017-07-09 16:54:49,521 - http://paimai.jd.com/103238457, current thread:216
+ 2017-07-09 16:54:50,202 - http://paimai.jd.com/103239411, current thread:160
+ 2017-07-09 16:54:51,050 - http://paimai.jd.com/103239394, current thread:53
+ 2017-07-09 16:54:51,253 - http://paimai.jd.com/103239377, current thread:52
+ 2017-07-09 16:54:51,273 - http://paimai.jd.com/103239147, current thread:33
+ 2017-07-09 16:54:51,426 - http://paimai.jd.com/103239033, current thread:141
+ 2017-07-09 16:54:51,467 - http://paimai.jd.com/103238974, current thread:130
+ 2017-07-09 16:54:51,489 - http://paimai.jd.com/103238716, current thread:117
+ 2017-07-09 16:54:51,652 - http://paimai.jd.com/103238696, current thread:154
+ 2017-07-09 16:54:51,728 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件18克海纲成文\583fe640N42ffbcda.jpg exist already
+ 2017-07-09 16:54:51,744 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件18克海纲成文\58f09001N54a1b243.jpg exist already
+ 2017-07-09 16:54:51,760 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件18克海纲成文\58f09002Nfa7c4f94.jpg exist already
+ 2017-07-09 16:54:51,775 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉黄沁皮籽料原石挂件18克海纲成文\58f09001N7acaa72e.jpg exist already
+ 2017-07-09 16:54:51,775 - http://paimai.jd.com/103238469, current thread:26
+ 2017-07-09 16:54:52,155 - http://paimai.jd.com/103239433, current thread:87
+ 2017-07-09 16:54:52,435 - http://paimai.jd.com/103239423, current thread:199
+ 2017-07-09 16:54:52,537 - http://paimai.jd.com/103239416, current thread:57
+ 2017-07-09 16:54:52,551 - http://paimai.jd.com/103239380, current thread:94
+ 2017-07-09 16:54:52,674 - http://paimai.jd.com/103238999, current thread:204
+ 2017-07-09 16:54:52,714 - http://paimai.jd.com/102859654, current thread:32
+ 2017-07-09 16:54:52,944 - http://paimai.jd.com/102856810, current thread:129
+ 2017-07-09 16:54:53,068 - http://paimai.jd.com/102859726, current thread:78
+ 2017-07-09 16:54:53,170 - http://paimai.jd.com/103138716, current thread:168
+ 2017-07-09 16:54:53,293 - http://paimai.jd.com/102771076, current thread:192
+ 2017-07-09 16:54:53,597 - http://paimai.jd.com/102811137, current thread:17
+ 2017-07-09 16:54:54,545 - http://paimai.jd.com/103145444, current thread:104
+ 2017-07-09 16:54:54,598 - http://paimai.jd.com/103107837, current thread:153
+ 2017-07-09 16:54:54,647 - http://paimai.jd.com/102848507, current thread:172
+ 2017-07-09 16:54:54,651 - http://paimai.jd.com/102769392, current thread:82
+ 2017-07-09 16:54:54,655 - http://paimai.jd.com/102769166, current thread:110
+ 2017-07-09 16:54:54,689 - http://paimai.jd.com/103242784, current thread:118
+ 2017-07-09 16:54:54,706 - http://paimai.jd.com/103195520, current thread:36
+ 2017-07-09 16:54:55,321 - http://paimai.jd.com/103145254, current thread:165
+ 2017-07-09 16:54:55,412 - http://paimai.jd.com/102934869, current thread:89
+ 2017-07-09 16:54:55,804 - http://paimai.jd.com/102918026, current thread:193
+ 2017-07-09 16:54:55,863 - http://paimai.jd.com/102858838, current thread:207
+ 2017-07-09 16:54:56,141 - http://paimai.jd.com/102856751, current thread:80
+ 2017-07-09 16:54:56,634 - http://paimai.jd.com/102856312, current thread:137
+ 2017-07-09 16:54:56,659 - http://paimai.jd.com/102851987, current thread:122
+ 2017-07-09 16:54:56,744 - http://paimai.jd.com/102808803, current thread:182
+ 2017-07-09 16:54:56,771 - http://paimai.jd.com/102805501, current thread:170
+ 2017-07-09 16:54:57,189 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉原石项链49克海纲成文\58f09000N198b74aa.jpg exist already
+ 2017-07-09 16:54:57,271 - http://paimai.jd.com/102769028, current thread:16
+ 2017-07-09 16:54:57,616 - http://paimai.jd.com/103195601, current thread:161
+ 2017-07-09 16:54:57,823 - http://paimai.jd.com/103181823, current thread:26
+ 2017-07-09 16:54:57,908 - http://paimai.jd.com/103181787, current thread:173
+ 2017-07-09 16:54:57,932 - http://paimai.jd.com/103107373, current thread:196
+ 2017-07-09 16:54:57,951 - http://paimai.jd.com/103106901, current thread:210
+ 2017-07-09 16:54:58,089 - http://paimai.jd.com/103105512, current thread:145
+ 2017-07-09 16:54:58,185 - http://paimai.jd.com/103105157, current thread:133
+ 2017-07-09 16:54:58,210 - http://paimai.jd.com/103017447, current thread:148
+ 2017-07-09 16:54:58,515 - http://paimai.jd.com/102941836, current thread:73
+ 2017-07-09 16:54:58,517 - http://paimai.jd.com/102935531, current thread:96
+ 2017-07-09 16:54:59,085 - http://paimai.jd.com/102935298, current thread:44
+ 2017-07-09 16:54:59,119 - http://paimai.jd.com/102935045, current thread:87
+ 2017-07-09 16:54:59,683 - http://paimai.jd.com/102918055, current thread:70
+ 2017-07-09 16:54:59,770 - http://paimai.jd.com/102858820, current thread:97
+ 2017-07-09 16:54:59,844 - http://paimai.jd.com/102851237, current thread:100
+ 2017-07-09 16:55:00,507 - http://paimai.jd.com/102805212, current thread:59
+ 2017-07-09 16:55:01,325 - http://paimai.jd.com/102804691, current thread:175
+ 2017-07-09 16:55:01,332 - D:\图集\和田玉图集\感恩回馈臻品和田玉捡漏专场\和田玉羊脂白玉仿古龙凤牌龙凤呈祥305克魅之恋和田玉\58eb039cNf73cc8b3.jpg exist already
+ 2017-07-09 16:55:01,469 - http://paimai.jd.com/102803517, current thread:169
+ 2017-07-09 16:55:01,505 - http://paimai.jd.com/102798603, current thread:154
+ 2017-07-09 16:55:01,531 - http://paimai.jd.com/103344624, current thread:28
+ 2017-07-09 16:55:01,776 - http://paimai.jd.com/103301006, current thread:160
+ 2017-07-09 16:55:01,793 - http://paimai.jd.com/103195713, current thread:53
+ 2017-07-09 16:55:01,796 - http://paimai.jd.com/103181847, current thread:61
+ 2017-07-09 16:55:01,974 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉原石项链49克海纲成文\583fe640N42ffbcda.jpg exist already
+ 2017-07-09 16:55:01,990 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉原石项链49克海纲成文\58f09001N54a1b243.jpg exist already
+ 2017-07-09 16:55:02,007 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉原石项链49克海纲成文\58f09002Nfa7c4f94.jpg exist already
+ 2017-07-09 16:55:02,023 - D:\图集\和田玉图集\收藏保值和田玉直供捡漏专场\和田玉原石项链49克海纲成文\58f09001N7acaa72e.jpg exist already
+ 2017-07-09 16:55:02,023 - http://paimai.jd.com/103181826, current thread:90
+ 2017-07-09 16:55:02,201 - http://paimai.jd.com/103181795, current thread:47
+ 2017-07-09 16:55:02,226 - http://paimai.jd.com/103145340, current thread:128
+ 2017-07-09 16:55:02,230 - http://paimai.jd.com/103145109, current thread:216
+ 2017-07-09 16:55:02,456 - http://paimai.jd.com/103145102, current thread:116
+ 2017-07-09 16:55:02,534 - http://paimai.jd.com/103144480, current thread:117
+ 2017-07-09 16:55:02,569 - http://paimai.jd.com/103144220, current thread:27
+ 2017-07-09 16:55:02,615 - http://paimai.jd.com/103142360, current thread:138
+ 2017-07-09 16:55:02,624 - http://paimai.jd.com/103108191, current thread:188
+ 2017-07-09 16:55:02,928 - http://paimai.jd.com/103108119, current thread:204
+ 2017-07-09 16:55:02,978 - http://paimai.jd.com/103108096, current thread:35
+ 2017-07-09 16:55:03,014 - http://paimai.jd.com/103107437, current thread:18
+ 2017-07-09 16:55:03,252 - http://paimai.jd.com/103105896, current thread:197
+ 2017-07-09 16:55:03,494 - http://paimai.jd.com/103105732, current thread:141
+ 2017-07-09 16:55:03,583 - http://paimai.jd.com/103018121, current thread:130
+ 2017-07-09 16:55:03,592 - http://paimai.jd.com/102941873, current thread:75
+ 2017-07-09 16:55:03,631 - http://paimai.jd.com/102941603, current thread:205
+ 2017-07-09 16:55:03,860 - http://paimai.jd.com/102935503, current thread:111
+ 2017-07-09 16:55:05,391 - http://paimai.jd.com/102935330, current thread:52
+ 2017-07-09 16:55:05,772 - http://paimai.jd.com/102935154, current thread:22
+ 2017-07-09 16:55:05,970 - http://paimai.jd.com/102918204, current thread:67
+ 2017-07-09 16:55:06,059 - http://paimai.jd.com/102918015, current thread:68
+ 2017-07-09 16:55:06,999 - http://paimai.jd.com/102859868, current thread:134
+ 2017-07-09 16:55:07,363 - http://paimai.jd.com/102859689, current thread:29
+ 2017-07-09 16:55:07,427 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:55:07,869 - http://paimai.jd.com/102856650, current thread:202
+ 2017-07-09 16:55:07,885 - http://paimai.jd.com/102856200, current thread:174
+ 2017-07-09 16:55:07,967 - http://paimai.jd.com/102811011, current thread:198
+ 2017-07-09 16:55:08,719 - http://paimai.jd.com/102798689, current thread:20
+ 2017-07-09 16:55:08,719 - http://paimai.jd.com/102771589, current thread:57
+ 2017-07-09 16:55:08,719 - http://paimai.jd.com/103195781, current thread:30
+ 2017-07-09 16:55:08,782 - http://paimai.jd.com/103181762, current thread:54
+ 2017-07-09 16:55:09,027 - http://paimai.jd.com/103145481, current thread:162
+ 2017-07-09 16:55:09,420 - http://paimai.jd.com/103145393, current thread:151
+ 2017-07-09 16:55:09,512 - http://paimai.jd.com/103145316, current thread:63
+ 2017-07-09 16:55:09,573 - http://paimai.jd.com/103145312, current thread:215
+ 2017-07-09 16:55:10,848 - http://paimai.jd.com/103145025, current thread:99
+ 2017-07-09 16:55:10,983 - http://paimai.jd.com/103107468, current thread:43
+ 2017-07-09 16:55:11,504 - http://paimai.jd.com/103106706, current thread:203
+ 2017-07-09 16:55:12,133 - http://paimai.jd.com/103106614, current thread:106
+ 2017-07-09 16:55:12,932 - http://paimai.jd.com/103105649, current thread:213
+ 2017-07-09 16:55:13,220 - http://paimai.jd.com/103105464, current thread:167
+ 2017-07-09 16:55:13,460 - http://paimai.jd.com/103025113, current thread:39
+ 2017-07-09 16:55:14,451 - http://paimai.jd.com/102935352, current thread:180
+ 2017-07-09 16:55:14,886 - http://paimai.jd.com/102935277, current thread:147
+ 2017-07-09 16:55:15,170 - http://paimai.jd.com/102917908, current thread:190
+ 2017-07-09 16:55:15,265 - http://paimai.jd.com/102856885, current thread:81
+ 2017-07-09 16:55:15,930 - http://paimai.jd.com/102808841, current thread:98
+ 2017-07-09 16:55:16,098 - http://paimai.jd.com/102806135, current thread:123
+ 2017-07-09 16:55:17,372 - http://paimai.jd.com/102806014, current thread:46
+ 2017-07-09 16:55:18,029 - http://paimai.jd.com/102804858, current thread:91
+ 2017-07-09 16:55:18,738 - http://paimai.jd.com/102691507, current thread:208
+ 2017-07-09 16:55:20,578 - http://paimai.jd.com/103018274, current thread:94
+ 2017-07-09 16:55:20,643 - http://paimai.jd.com/102918084, current thread:31
+ 2017-07-09 16:55:21,616 - http://paimai.jd.com/102810153, current thread:24
+ 2017-07-09 16:55:22,146 - http://paimai.jd.com/103265760, current thread:149
+ 2017-07-09 16:55:22,596 - http://paimai.jd.com/103168438, current thread:144
+ 2017-07-09 16:55:23,760 - http://paimai.jd.com/103162118, current thread:69
+ 2017-07-09 16:55:23,863 - http://paimai.jd.com/103201589, current thread:21
+ 2017-07-09 16:55:24,281 - http://paimai.jd.com/103167806, current thread:131
+ 2017-07-09 16:55:24,306 - http://paimai.jd.com/103161631, current thread:96
+ 2017-07-09 16:55:25,478 - http://paimai.jd.com/103168331, current thread:50
+ 2017-07-09 16:55:26,158 - http://paimai.jd.com/103168333, current thread:153
+ 2017-07-09 16:55:26,242 - http://paimai.jd.com/103201571, current thread:58
+ 2017-07-09 16:55:26,252 - http://paimai.jd.com/103168223, current thread:34
+ 2017-07-09 16:55:27,133 - http://paimai.jd.com/103168371, current thread:36
+ 2017-07-09 16:55:27,402 - http://paimai.jd.com/103167831, current thread:112
+ 2017-07-09 16:55:27,427 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:55:27,552 - http://paimai.jd.com/103168433, current thread:47
+ 2017-07-09 16:55:29,489 - http://paimai.jd.com/103168363, current thread:33
+ 2017-07-09 16:55:30,058 - http://paimai.jd.com/103168346, current thread:179
+ 2017-07-09 16:55:30,191 - http://paimai.jd.com/103168235, current thread:194
+ 2017-07-09 16:55:30,623 - http://paimai.jd.com/103162037, current thread:122
+ 2017-07-09 16:55:31,514 - http://paimai.jd.com/103161841, current thread:100
+ 2017-07-09 16:55:31,982 - http://paimai.jd.com/103168408, current thread:86
+ 2017-07-09 16:55:33,257 - http://paimai.jd.com/103168399, current thread:192
+ 2017-07-09 16:55:33,258 - http://paimai.jd.com/103168310, current thread:206
+ 2017-07-09 16:55:33,258 - http://paimai.jd.com/103168293, current thread:85
+ 2017-07-09 16:55:33,793 - http://paimai.jd.com/103168280, current thread:172
+ 2017-07-09 16:55:35,225 - http://paimai.jd.com/103168245, current thread:83
+ 2017-07-09 16:55:35,263 - http://paimai.jd.com/103167693, current thread:164
+ 2017-07-09 16:55:35,380 - http://paimai.jd.com/103164255, current thread:56
+ 2017-07-09 16:55:35,540 - http://paimai.jd.com/103161875, current thread:80
+ 2017-07-09 16:55:35,827 - http://paimai.jd.com/103161817, current thread:161
+ 2017-07-09 16:55:36,598 - http://paimai.jd.com/103161603, current thread:76
+ 2017-07-09 16:55:36,642 - http://paimai.jd.com/103161492, current thread:92
+ 2017-07-09 16:55:37,020 - http://paimai.jd.com/103161279, current thread:126
+ 2017-07-09 16:55:38,683 - http://paimai.jd.com/103161240, current thread:141
+ 2017-07-09 16:55:39,584 - http://paimai.jd.com/103161154, current thread:49
+ 2017-07-09 16:55:40,066 - http://paimai.jd.com/103201563, current thread:59
+ 2017-07-09 16:55:40,126 - http://paimai.jd.com/103168435, current thread:154
+ 2017-07-09 16:55:40,467 - http://paimai.jd.com/103168405, current thread:54
+ 2017-07-09 16:55:40,522 - http://paimai.jd.com/103168390, current thread:28
+ 2017-07-09 16:55:40,683 - http://paimai.jd.com/103168353, current thread:136
+ 2017-07-09 16:55:42,118 - http://paimai.jd.com/103168261, current thread:181
+ 2017-07-09 16:55:42,147 - http://paimai.jd.com/103168187, current thread:26
+ 2017-07-09 16:55:43,444 - http://paimai.jd.com/103168168, current thread:150
+ 2017-07-09 16:55:43,541 - http://paimai.jd.com/103168113, current thread:23
+ 2017-07-09 16:55:44,252 - http://paimai.jd.com/103168088, current thread:165
+ 2017-07-09 16:55:44,676 - http://paimai.jd.com/103168009, current thread:180
+ 2017-07-09 16:55:44,850 - http://paimai.jd.com/103167976, current thread:79
+ 2017-07-09 16:55:44,868 - http://paimai.jd.com/103167787, current thread:152
+ 2017-07-09 16:55:47,427 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:55:47,581 - http://paimai.jd.com/103164244, current thread:38
+ 2017-07-09 16:55:47,638 - http://paimai.jd.com/103162032, current thread:84
+ 2017-07-09 16:55:48,694 - http://paimai.jd.com/103161954, current thread:160
+ 2017-07-09 16:55:48,850 - http://paimai.jd.com/103161744, current thread:196
+ 2017-07-09 16:55:49,456 - http://paimai.jd.com/103161660, current thread:53
+ 2017-07-09 16:55:50,430 - http://paimai.jd.com/103161570, current thread:185
+ 2017-07-09 16:55:50,439 - http://paimai.jd.com/103161531, current thread:52
+ 2017-07-09 16:55:50,908 - http://paimai.jd.com/103161019, current thread:42
+ 2017-07-09 16:55:50,943 - http://paimai.jd.com/103160974, current thread:91
+ 2017-07-09 16:55:53,258 - http://paimai.jd.com/103201615, current thread:197
+ 2017-07-09 16:55:53,260 - http://paimai.jd.com/103168412, current thread:173
+ 2017-07-09 16:55:53,664 - http://paimai.jd.com/103168411, current thread:205
+ 2017-07-09 16:55:53,664 - http://paimai.jd.com/103168409, current thread:75
+ 2017-07-09 16:55:53,679 - http://paimai.jd.com/103168395, current thread:39
+ 2017-07-09 16:55:54,198 - http://paimai.jd.com/103168393, current thread:132
+ 2017-07-09 16:55:54,552 - http://paimai.jd.com/103168377, current thread:135
+ 2017-07-09 16:55:54,843 - http://paimai.jd.com/103168375, current thread:111
+ 2017-07-09 16:55:54,926 - http://paimai.jd.com/103168366, current thread:203
+ 2017-07-09 16:55:55,579 - http://paimai.jd.com/103168357, current thread:129
+ 2017-07-09 16:55:55,593 - http://paimai.jd.com/103168340, current thread:17
+ 2017-07-09 16:55:56,309 - http://paimai.jd.com/103168327, current thread:72
+ 2017-07-09 16:55:56,347 - http://paimai.jd.com/103168323, current thread:78
+ 2017-07-09 16:55:57,551 - http://paimai.jd.com/103168153, current thread:20
+ 2017-07-09 16:55:57,609 - http://paimai.jd.com/103168133, current thread:93
+ 2017-07-09 16:55:57,784 - http://paimai.jd.com/103167874, current thread:192
+ 2017-07-09 16:55:57,807 - http://paimai.jd.com/103167772, current thread:31
+ 2017-07-09 16:55:57,966 - http://paimai.jd.com/103167752, current thread:44
+ 2017-07-09 16:55:58,006 - http://paimai.jd.com/103167727, current thread:27
+ 2017-07-09 16:55:58,841 - http://paimai.jd.com/103167679, current thread:204
+ 2017-07-09 16:55:58,942 - http://paimai.jd.com/103167671, current thread:214
+ 2017-07-09 16:55:58,953 - http://paimai.jd.com/103167661, current thread:174
+ 2017-07-09 16:55:59,134 - http://paimai.jd.com/103164260, current thread:176
+ 2017-07-09 16:55:59,580 - http://paimai.jd.com/103164245, current thread:40
+ 2017-07-09 16:55:59,868 - http://paimai.jd.com/103164243, current thread:144
+ 2017-07-09 16:56:00,216 - http://paimai.jd.com/103162043, current thread:18
+ 2017-07-09 16:56:00,352 - http://paimai.jd.com/103162036, current thread:133
+ 2017-07-09 16:56:00,592 - http://paimai.jd.com/103162025, current thread:97
+ 2017-07-09 16:56:00,687 - http://paimai.jd.com/103161979, current thread:57
+ 2017-07-09 16:56:00,928 - http://paimai.jd.com/103161930, current thread:95
+ 2017-07-09 16:56:02,519 - http://paimai.jd.com/103161709, current thread:199
+ 2017-07-09 16:56:02,653 - http://paimai.jd.com/103161444, current thread:163
+ 2017-07-09 16:56:03,109 - http://paimai.jd.com/103161366, current thread:118
+ 2017-07-09 16:56:03,342 - http://paimai.jd.com/103161315, current thread:188
+ 2017-07-09 16:56:03,493 - http://paimai.jd.com/103160896, current thread:54
+ 2017-07-09 16:56:03,783 - http://paimai.jd.com/103162029, current thread:171
+ 2017-07-09 16:56:04,765 - http://paimai.jd.com/103162019, current thread:142
+ 2017-07-09 16:56:04,788 - http://paimai.jd.com/103161969, current thread:68
+ 2017-07-09 16:56:05,052 - http://paimai.jd.com/103168404, current thread:140
+ 2017-07-09 16:56:05,381 - http://paimai.jd.com/103164242, current thread:190
+ 2017-07-09 16:56:05,396 - http://paimai.jd.com/103162068, current thread:147
+ 2017-07-09 16:56:06,023 - http://paimai.jd.com/103162002, current thread:103
+ 2017-07-09 16:56:06,264 - http://paimai.jd.com/103162108, current thread:109
+ 2017-07-09 16:56:06,311 - http://paimai.jd.com/103162046, current thread:175
+ 2017-07-09 16:56:07,427 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:56:09,333 - http://paimai.jd.com/103226165, current thread:104
+ 2017-07-09 16:56:09,662 - http://paimai.jd.com/103226030, current thread:154
+ 2017-07-09 16:56:10,223 - http://paimai.jd.com/103221200, current thread:182
+ 2017-07-09 16:56:10,444 - http://paimai.jd.com/103215673, current thread:99
+ 2017-07-09 16:56:10,888 - http://paimai.jd.com/103221124, current thread:119
+ 2017-07-09 16:56:10,892 - http://paimai.jd.com/103225994, current thread:210
+ 2017-07-09 16:56:11,251 - http://paimai.jd.com/103220379, current thread:145
+ 2017-07-09 16:56:11,324 - http://paimai.jd.com/103221179, current thread:121
+ 2017-07-09 16:56:11,713 - http://paimai.jd.com/103220392, current thread:207
+ 2017-07-09 16:56:12,185 - http://paimai.jd.com/103221169, current thread:159
+ 2017-07-09 16:56:12,223 - http://paimai.jd.com/103220762, current thread:169
+ 2017-07-09 16:56:12,369 - http://paimai.jd.com/103220653, current thread:34
+ 2017-07-09 16:56:12,658 - http://paimai.jd.com/103220238, current thread:111
+ 2017-07-09 16:56:12,858 - http://paimai.jd.com/103219136, current thread:69
+ 2017-07-09 16:56:12,980 - http://paimai.jd.com/103221311, current thread:61
+ 2017-07-09 16:56:13,341 - http://paimai.jd.com/103221158, current thread:151
+ 2017-07-09 16:56:13,463 - http://paimai.jd.com/103221117, current thread:43
+ 2017-07-09 16:56:13,565 - http://paimai.jd.com/103220276, current thread:198
+ 2017-07-09 16:56:14,110 - http://paimai.jd.com/103220236, current thread:112
+ 2017-07-09 16:56:14,815 - http://paimai.jd.com/103219095, current thread:137
+ 2017-07-09 16:56:15,392 - http://paimai.jd.com/103219087, current thread:35
+ 2017-07-09 16:56:15,436 - http://paimai.jd.com/103215771, current thread:106
+ 2017-07-09 16:56:15,679 - http://paimai.jd.com/103343924, current thread:89
+ 2017-07-09 16:56:16,476 - http://paimai.jd.com/103226088, current thread:39
+ 2017-07-09 16:56:19,083 - http://paimai.jd.com/103221355, current thread:50
+ 2017-07-09 16:56:19,362 - http://paimai.jd.com/103220423, current thread:193
+ 2017-07-09 16:56:20,185 - http://paimai.jd.com/103220231, current thread:45
+ 2017-07-09 16:56:20,275 - http://paimai.jd.com/103220217, current thread:167
+ 2017-07-09 16:56:21,416 - http://paimai.jd.com/103226155, current thread:181
+ 2017-07-09 16:56:22,984 - http://paimai.jd.com/103226103, current thread:63
+ 2017-07-09 16:56:23,252 - http://paimai.jd.com/103221374, current thread:110
+ 2017-07-09 16:56:24,098 - http://paimai.jd.com/103221343, current thread:143
+ 2017-07-09 16:56:25,055 - http://paimai.jd.com/103221331, current thread:32
+ 2017-07-09 16:56:25,370 - http://paimai.jd.com/103221222, current thread:208
+ 2017-07-09 16:56:25,529 - http://paimai.jd.com/103221146, current thread:153
+ 2017-07-09 16:56:25,590 - http://paimai.jd.com/103221133, current thread:24
+ 2017-07-09 16:56:26,282 - http://paimai.jd.com/103220756, current thread:151
+ 2017-07-09 16:56:26,471 - http://paimai.jd.com/103220744, current thread:128
+ 2017-07-09 16:56:26,724 - http://paimai.jd.com/103220663, current thread:198
+ 2017-07-09 16:56:27,364 - http://paimai.jd.com/103220614, current thread:43
+ 2017-07-09 16:56:27,428 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:56:27,646 - http://paimai.jd.com/103220387, current thread:87
+ 2017-07-09 16:56:27,804 - http://paimai.jd.com/103220369, current thread:134
+ 2017-07-09 16:56:28,494 - http://paimai.jd.com/103219152, current thread:110
+ 2017-07-09 16:56:29,142 - http://paimai.jd.com/103219125, current thread:72
+ 2017-07-09 16:56:29,450 - http://paimai.jd.com/103219059, current thread:29
+ 2017-07-09 16:56:29,461 - http://paimai.jd.com/103215777, current thread:179
+ 2017-07-09 16:56:29,567 - http://paimai.jd.com/103215772, current thread:58
+ 2017-07-09 16:56:29,594 - http://paimai.jd.com/103215768, current thread:92
+ 2017-07-09 16:56:30,920 - http://paimai.jd.com/103226135, current thread:215
+ 2017-07-09 16:56:31,567 - http://paimai.jd.com/103221390, current thread:23
+ 2017-07-09 16:56:31,636 - http://paimai.jd.com/103221296, current thread:81
+ 2017-07-09 16:56:32,340 - http://paimai.jd.com/103221264, current thread:19
+ 2017-07-09 16:56:32,399 - http://paimai.jd.com/103221242, current thread:214
+ 2017-07-09 16:56:32,906 - http://paimai.jd.com/103221108, current thread:32
+ 2017-07-09 16:56:34,328 - http://paimai.jd.com/103221098, current thread:117
+ 2017-07-09 16:56:34,403 - http://paimai.jd.com/103221092, current thread:164
+ 2017-07-09 16:56:34,602 - http://paimai.jd.com/103221078, current thread:202
+ 2017-07-09 16:56:34,982 - http://paimai.jd.com/103221071, current thread:132
+ 2017-07-09 16:56:35,683 - http://paimai.jd.com/103220753, current thread:216
+ 2017-07-09 16:56:35,886 - http://paimai.jd.com/103220747, current thread:21
+ 2017-07-09 16:56:37,013 - http://paimai.jd.com/103220640, current thread:150
+ 2017-07-09 16:56:37,197 - http://paimai.jd.com/103220620, current thread:153
+ 2017-07-09 16:56:37,558 - http://paimai.jd.com/103220381, current thread:59
+ 2017-07-09 16:56:37,565 - http://paimai.jd.com/103220286, current thread:84
+ 2017-07-09 16:56:37,923 - http://paimai.jd.com/103220283, current thread:76
+ 2017-07-09 16:56:38,623 - http://paimai.jd.com/103220273, current thread:81
+ 2017-07-09 16:56:38,935 - http://paimai.jd.com/103220254, current thread:109
+ 2017-07-09 16:56:39,198 - http://paimai.jd.com/103219105, current thread:19
+ 2017-07-09 16:56:39,258 - http://paimai.jd.com/103219040, current thread:213
+ 2017-07-09 16:56:40,327 - http://paimai.jd.com/103215770, current thread:133
+ 2017-07-09 16:56:40,392 - http://paimai.jd.com/103215765, current thread:119
+ 2017-07-09 16:56:41,285 - http://paimai.jd.com/103215675, current thread:173
+ 2017-07-09 16:56:41,511 - http://paimai.jd.com/103226011, current thread:60
+ 2017-07-09 16:56:41,525 - http://paimai.jd.com/103221325, current thread:214
+ 2017-07-09 16:56:41,545 - http://paimai.jd.com/103221304, current thread:57
+ 2017-07-09 16:56:42,834 - http://paimai.jd.com/103221285, current thread:33
+ 2017-07-09 16:56:43,309 - http://paimai.jd.com/103221273, current thread:142
+ 2017-07-09 16:56:43,887 - http://paimai.jd.com/103221260, current thread:30
+ 2017-07-09 16:56:43,907 - http://paimai.jd.com/103221232, current thread:129
+ 2017-07-09 16:56:44,521 - http://paimai.jd.com/103221212, current thread:17
+ 2017-07-09 16:56:44,745 - http://paimai.jd.com/103221190, current thread:67
+ 2017-07-09 16:56:45,236 - http://paimai.jd.com/103221086, current thread:100
+ 2017-07-09 16:56:45,449 - http://paimai.jd.com/103220750, current thread:150
+ 2017-07-09 16:56:46,126 - http://paimai.jd.com/103220430, current thread:196
+ 2017-07-09 16:56:46,255 - http://paimai.jd.com/103220412, current thread:191
+ 2017-07-09 16:56:46,273 - http://paimai.jd.com/103220374, current thread:176
+ 2017-07-09 16:56:46,473 - http://paimai.jd.com/103220258, current thread:22
+ 2017-07-09 16:56:46,532 - http://paimai.jd.com/103219117, current thread:117
+ 2017-07-09 16:56:46,957 - http://paimai.jd.com/103219115, current thread:78
+ 2017-07-09 16:56:47,129 - http://paimai.jd.com/103219081, current thread:104
+ 2017-07-09 16:56:47,180 - http://paimai.jd.com/103219074, current thread:214
+ 2017-07-09 16:56:47,429 - thread sleep 20 s, current active thread : 200
+ 2017-07-09 16:56:47,507 - http://paimai.jd.com/103219054, current thread:131
+ 2017-07-09 16:56:49,155 - http://paimai.jd.com/103219046, current thread:142
+ 2017-07-09 16:56:49,306 - http://paimai.jd.com/103215769, current thread:146
+ 2017-07-09 16:56:49,310 - http://paimai.jd.com/103215767, current thread:93
+ 2017-07-09 16:56:50,148 - http://paimai.jd.com/103215672, current thread:178
+ 2017-07-09 16:56:50,357 - http://paimai.jd.com/103226119, current thread:138
+ 2017-07-09 16:56:50,927 - http://paimai.jd.com/103219067, current thread:60
+ 2017-07-09 16:56:50,937 - http://paimai.jd.com/103215775, current thread:103
+ 2017-07-09 16:56:51,720 - http://paimai.jd.com/103215670, current thread:68
+ 2017-07-09 16:57:07,429 - thread sleep 20 s, current active thread : 132
+ 2017-07-09 16:57:27,429 - thread sleep 20 s, current active thread : 58
+ 2017-07-09 16:57:47,429 - thread sleep 20 s, current active thread : 55
+ 2017-07-09 16:58:07,429 - thread sleep 20 s, current active thread : 53
+ 2017-07-09 16:58:27,429 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 16:58:47,430 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 16:59:07,430 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 16:59:27,430 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 16:59:47,430 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:00:07,430 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:00:27,430 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:00:47,431 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:01:07,431 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:01:27,431 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:01:47,431 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:02:07,431 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:02:27,431 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:02:47,431 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:03:07,432 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:03:27,432 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:03:47,432 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:04:07,432 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:04:27,432 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:04:47,432 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:05:07,432 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:05:27,433 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:05:47,433 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:06:07,433 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:06:27,433 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:06:47,433 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:07:07,433 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:07:27,433 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:07:47,434 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:08:07,434 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:08:27,434 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:08:47,434 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:09:07,434 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:09:27,434 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:09:47,434 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:10:07,435 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:10:27,435 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:10:47,435 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:11:07,435 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:11:27,435 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:11:47,435 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:12:07,435 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:12:27,436 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:12:47,436 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:13:07,436 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:13:27,436 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:13:47,436 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:14:07,436 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:14:27,436 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:14:47,437 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:15:07,437 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:15:27,437 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:15:47,437 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:16:07,437 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:16:27,437 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:16:47,437 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:17:07,438 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:17:27,438 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:17:47,438 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:18:07,438 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:18:27,438 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:18:47,438 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:19:07,438 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:19:27,439 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:19:47,439 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:20:07,439 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:20:27,439 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:20:47,439 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:21:07,439 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:21:27,439 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:21:47,440 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:22:07,440 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:22:27,440 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:22:47,440 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:23:07,440 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:23:27,440 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:23:47,440 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:24:07,441 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:24:27,441 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:24:47,441 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:25:07,441 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:25:27,441 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:25:47,441 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:26:07,441 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:26:27,442 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:26:47,442 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:27:07,442 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:27:27,442 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:27:47,442 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:28:07,442 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:28:27,442 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:28:47,443 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:29:07,443 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:29:27,443 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:29:47,443 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:30:07,443 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:30:27,443 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:30:47,443 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:31:07,444 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:31:27,444 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:31:47,444 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:32:07,444 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:32:27,444 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:32:47,444 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:33:07,444 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:33:27,446 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:33:47,446 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:34:07,446 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:34:27,446 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:34:47,446 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:35:07,446 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:35:27,446 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:35:47,447 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:36:07,447 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:36:27,447 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:36:47,447 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:37:07,447 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:37:27,447 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:37:47,447 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:38:07,448 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:38:27,448 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:38:47,448 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:39:07,448 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:39:27,448 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:39:47,448 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:40:07,448 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:40:27,451 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:40:47,451 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:41:07,451 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:41:27,451 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:41:47,451 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:42:07,451 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:42:27,451 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:42:47,452 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:43:07,452 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:43:27,452 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:43:47,452 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:44:07,452 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:44:27,452 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:44:47,453 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:45:07,453 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:45:27,453 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:45:47,453 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:46:07,453 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:46:27,453 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:46:47,453 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:47:07,454 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:47:27,454 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:47:47,454 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:48:07,454 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:48:27,454 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:48:47,454 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:49:07,454 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:49:27,455 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:49:47,455 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:50:07,455 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:50:27,455 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:50:47,455 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:51:07,455 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:51:27,457 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:51:47,458 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:52:07,461 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:52:27,851 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:52:47,852 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:53:07,853 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:53:27,854 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:53:47,854 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:54:07,855 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:54:27,855 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:54:47,855 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:55:07,855 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:55:27,855 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:55:47,855 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:56:07,855 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:56:28,086 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:56:48,087 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:57:08,087 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:57:28,087 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:57:48,091 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:58:08,091 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:58:28,097 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:58:48,098 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:59:08,098 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:59:28,098 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 17:59:48,098 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:00:08,098 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:00:28,098 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:00:48,098 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:01:08,100 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:01:28,100 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:01:48,100 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:02:08,100 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:02:28,100 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:02:48,100 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:03:08,100 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:03:28,101 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:03:48,101 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:04:08,101 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:04:28,743 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:04:49,677 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:05:09,678 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:05:29,679 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:05:49,680 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:06:10,115 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:06:30,118 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:06:50,119 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:07:10,119 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:07:30,119 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:07:50,120 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:08:10,120 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:08:30,120 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:08:50,120 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:09:10,120 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:09:30,120 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:09:50,120 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:10:10,121 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:10:30,121 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:10:50,121 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:11:10,121 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:11:30,121 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:11:50,121 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:12:10,121 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:12:30,122 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:12:50,122 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:13:10,122 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:13:30,122 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:13:50,122 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:14:10,122 - thread sleep 20 s, current active thread : 52
+ 2017-07-09 18:14:30,122 - thread sleep 20 s, current active thread : 52
+ 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/aop
+						http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<!-- execute at a setting time -->
+	<bean id="jobDetailFactoryBean" name="jobDetailFactoryBean" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+		<property name="jobClass"  value="com.login.service.impl.JobServiceImpl"></property>
+	</bean>
+	
+	<bean id="cronTriggerFactoryBean" name="cronTriggerFactoryBean" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="jobDetailFactoryBean" ></property>
+		<!-- value="0 * 11 * * ?", 11 minute execute in every hours -->
+		<property name="cronExpression" value="0 0-59 * * * ?"></property>
+	</bean>
+	
+	<!-- execute repeatedly -->
+	<bean id="methodInvokingJobDetailFactoryBean" name="methodInvokingJobDetailFactoryBean" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="JobService"></property>
+		<property name="targetMethod" value="executeEveryMinute"></property>
+	</bean>
+	
+	<bean id="simpleTriggerFactoryBean" name="simpleTriggerFactoryBean" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+		<property name="jobDetail" ref="methodInvokingJobDetailFactoryBean"></property>
+		<!-- repeat every 1000 millisecond -->
+		<property name="repeatInterval" value="1000"></property>
+	</bean>
+	
+	
+	<bean id="schedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<!-- <property name="triggers">
+			<list>
+				<ref bean="cronTriggerFactoryBean"/>
+				<ref bean="simpleTriggerFactoryBean"/>
+			</list>
+		</property> -->
+	</bean>
+	
+	<bean id="stdSchedulerFactory" class="org.quartz.impl.StdSchedulerFactory">
+	</bean>
+</beans>
