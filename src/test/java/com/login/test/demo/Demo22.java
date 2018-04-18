@@ -26,6 +26,11 @@ public class Demo22  implements Iterable<Demo22Sub> {
 		public Demo22Sub next() {
 			return null;
 		}
+
+		public void remove() {
+			// TODO Auto-generated method stub
+			
+		}
 		
 	}
 
